@@ -373,14 +373,14 @@ config_canary.lua
 client_assertions.txt
 # Extensions
 *.ini
-*.otb
+# *.otb
 *.exe
 *.manifest
-*.otbm
+# *.otbm
 *.rar
-*-house.xml
-*-monster.xml
-*-npc.xml
+# *-house.xml
+# *-monster.xml
+# *-npc.xml
 
 # SFTP for Sublime
 sftp-config.json
