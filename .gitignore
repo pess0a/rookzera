@@ -382,7 +382,10 @@ client_assertions.txt
 # *-monster.xml
 # *-npc.xml
 
+data-otservbr-global/world/**/*
+data-otservbr-global/world
 data-otservbr-global/world/**
+data-otservbr-global/world/*
 
 # SFTP for Sublime
 sftp-config.json
