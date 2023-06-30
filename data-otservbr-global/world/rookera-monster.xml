@@ -2415,36 +2415,6 @@
 	<monster centerx="31979" centery="32245" centerz="9" radius="3">
 		<monster name="Cave Rat" x="0" y="0" z="9" spawntime="90" />
 	</monster>
-	<monster centerx="32035" centery="32287" centerz="9" radius="3">
-		<monster name="Cockroach" x="0" y="-3" z="9" spawntime="90" />
-		<monster name="Cockroach" x="-2" y="1" z="9" spawntime="90" />
-	</monster>
-	<monster centerx="32035" centery="32294" centerz="9" radius="3">
-		<monster name="Cockroach" x="3" y="-3" z="9" spawntime="90" />
-		<monster name="Cockroach" x="-3" y="-2" z="9" spawntime="90" />
-		<monster name="Cockroach" x="1" y="-2" z="9" spawntime="90" />
-		<monster name="Cockroach" x="3" y="-1" z="9" spawntime="90" />
-		<monster name="Cockroach" x="3" y="0" z="9" spawntime="90" />
-		<monster name="Cockroach" x="-1" y="2" z="9" spawntime="90" />
-	</monster>
-	<monster centerx="32042" centery="32296" centerz="9" radius="1">
-		<monster name="Cockroach" x="0" y="0" z="9" spawntime="90" />
-	</monster>
-	<monster centerx="32046" centery="32296" centerz="9" radius="1">
-		<monster name="Cockroach" x="0" y="0" z="9" spawntime="90" />
-	</monster>
-	<monster centerx="32037" centery="32299" centerz="9" radius="1">
-		<monster name="Cockroach" x="0" y="0" z="9" spawntime="90" />
-	</monster>
-	<monster centerx="32044" centery="32299" centerz="9" radius="1">
-		<monster name="Cockroach" x="0" y="0" z="9" spawntime="90" />
-	</monster>
-	<monster centerx="32049" centery="32301" centerz="9" radius="3">
-		<monster name="Cockroach" x="2" y="-2" z="9" spawntime="90" />
-	</monster>
-	<monster centerx="32034" centery="32302" centerz="9" radius="1">
-		<monster name="Cockroach" x="0" y="0" z="9" spawntime="90" />
-	</monster>
 	<monster centerx="32047" centery="31992" centerz="10" radius="1">
 		<monster name="Bat" x="1" y="-1" z="10" spawntime="90" />
 	</monster>
