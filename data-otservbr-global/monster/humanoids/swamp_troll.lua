@@ -2,7 +2,7 @@ local mType = Game.createMonsterType("Swamp Troll")
 local monster = {}
 
 monster.description = "a swamp troll"
-monster.experience = 25
+monster.experience = 30
 monster.outfit = {
 	lookType = 76,
 	lookHead = 0,
@@ -17,9 +17,9 @@ monster.raceId = 76
 monster.Bestiary = {
 	class = "Humanoid",
 	race = BESTY_RACE_HUMANOID,
-	toKill = 500,
+	toKill = 1000,
 	FirstUnlock = 25,
-	SecondUnlock = 250,
+	SecondUnlock = 500,
 	CharmsPoints = 15,
 	Stars = 2,
 	Occurrence = 0,
@@ -80,14 +80,14 @@ monster.loot = {
 	{id = 2920, chance = 15000}, -- torch
 	{name = "gold coin", chance = 50300, maxCount = 5},
 	{name = "mouldy cheese", chance = 10000},
-	{name = "spear", chance = 13000},
+	{name = "spear", chance = 10000},
 	{name = "fishing rod", chance = 60},
 	{name = "leather boots", chance = 9500},
 	{id = 3578, chance = 60000}, -- fish
 	{name = "troll green", chance = 1200},
 	{id = 5901, chance = 2140}, -- wood
 	{name = "swamp grass", chance = 3100},
-	{name = "medicine pouch", chance = 2160}
+	{name = "medicine pouch", chance = 6160}
 }
 
 monster.attacks = {
@@ -102,7 +102,7 @@ monster.defenses = {
 monster.elements = {
 	{type = COMBAT_PHYSICALDAMAGE, percent = 0},
 	{type = COMBAT_ENERGYDAMAGE, percent = 0},
-	{type = COMBAT_EARTHDAMAGE, percent = 15},
+	{type = COMBAT_EARTHDAMAGE, percent = 30},
 	{type = COMBAT_FIREDAMAGE, percent = -5},
 	{type = COMBAT_LIFEDRAIN, percent = 0},
 	{type = COMBAT_MANADRAIN, percent = 0},

@@ -17,9 +17,9 @@ monster.raceId = 913
 monster.Bestiary = {
 	class = "Amphibic",
 	race = BESTY_RACE_AMPHIBIC,
-	toKill = 500,
+	toKill = 1000,
 	FirstUnlock = 25,
-	SecondUnlock = 250,
+	SecondUnlock = 500,
 	CharmsPoints = 15,
 	Stars = 2,
 	Occurrence = 0,
@@ -76,23 +76,23 @@ monster.voices = {
 monster.loot = {
 	{name = "gold coin", chance = 72000, maxCount = 15},
 	{name = "gold coin", chance = 72000, maxCount = 15},
-	{name = "mace", chance = 3780},
+	{name = "mace", chance = 2000},
 	{id = 3003, chance = 5190}, -- rope
-	{name = "bow", chance = 740},
-	{name = "brass helmet", chance = 2180},
-	{name = "arrow", chance = 7890, maxCount = 3},
-	{name = "health potion", chance = 1480},
-	{id = 3307, chance = 490} -- scimitar
+	{name = "bow", chance = 30},
+	{name = "brass helmet", chance = 2000},
+	{name = "arrow", chance = 2000, maxCount = 3},
+	{name = "health potion", chance = 50},
+	{id = 3307, chance = 50} -- scimitar
 }
 
 monster.attacks = {
-	{name ="melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = -60, effect = CONST_ME_DRAWBLOOD, condition = {type = CONDITION_POISON, totalDamage = 10, interval = 4000}}
+	{name ="melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = -45, effect = CONST_ME_DRAWBLOOD, condition = {type = CONDITION_POISON, totalDamage = 10, interval = 4000}}
 }
 
 monster.defenses = {
-	defense = 5,
-	armor = 5,
-	{name ="combat", interval = 6000, chance = 20, type = COMBAT_HEALING, minDamage = 0, maxDamage = 4, effect = CONST_ME_MAGIC_BLUE, target = false}
+	defense = 12,
+	armor = 8,
+	{name ="combat", interval = 6000, chance = 20, type = COMBAT_HEALING, minDamage = 0, maxDamage = 5, effect = CONST_ME_MAGIC_BLUE, target = false}
 }
 
 monster.elements = {

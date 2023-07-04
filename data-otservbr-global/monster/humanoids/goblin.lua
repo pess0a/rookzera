@@ -17,9 +17,9 @@ monster.raceId = 61
 monster.Bestiary = {
 	class = "Humanoid",
 	race = BESTY_RACE_HUMANOID,
-	toKill = 250,
-	FirstUnlock = 10,
-	SecondUnlock = 100,
+	toKill = 1000,
+	FirstUnlock = 25,
+	SecondUnlock = 500,
 	CharmsPoints = 5,
 	Stars = 1,
 	Occurrence = 0,
@@ -79,7 +79,7 @@ monster.voices = {
 }
 
 monster.loot = {
-	{name = "small stone", chance = 15290, maxCount = 3},
+	{name = "small stone", chance = 7890, maxCount = 3},
 	{name = "gold coin", chance = 50320, maxCount = 9},
 	{id = 3115, chance = 1130}, -- bone
 	{name = "mouldy cheese", chance = 1000},

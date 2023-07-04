@@ -17,9 +17,9 @@ monster.raceId = 64
 monster.Bestiary = {
 	class = "Humanoid",
 	race = BESTY_RACE_HUMANOID,
-	toKill = 500,
+	toKill = 1000,
 	FirstUnlock = 25,
-	SecondUnlock = 250,
+	SecondUnlock = 500,
 	CharmsPoints = 15,
 	Stars = 2,
 	Occurrence = 0,
@@ -28,7 +28,7 @@ monster.Bestiary = {
 		Two may also spawn when a Desperate White Deer or an Enraged White Deer is killed."
 	}
 
-monster.health = 160
+monster.health = 180
 monster.maxHealth = 160
 monster.race = "blood"
 monster.corpse = 6012
@@ -82,20 +82,20 @@ monster.voices = {
 monster.loot = {
 	{name = "waterskin", chance = 1350},
 	{name = "gold coin", chance = 75000, maxCount = 25},
-	{name = "bow", chance = 4000},
-	{name = "arrow", chance = 30710, maxCount = 12},
-	{name = "poison arrow", chance = 15400, maxCount = 4},
+	{name = "bow", chance = 500},
+	{name = "arrow", chance = 15710, maxCount = 12},
+	{name = "poison arrow", chance = 7900, maxCount = 4},
 	{name = "sandals", chance = 1180},
 	{name = "grapes", chance = 17750},
 	{id = 5921, chance = 1130}, -- heaven blossom
-	{name = "elvish bow", chance = 140},
+	{name = "elvish bow", chance = 100},
 	{name = "elvish talisman", chance = 5200},
 	{name = "elven scouting glass", chance = 9750}
 }
 
 monster.attacks = {
 	{name ="melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = -30},
-	{name ="combat", interval = 2000, chance = 15, type = COMBAT_PHYSICALDAMAGE, minDamage = 0, maxDamage = -80, range = 7, shootEffect = CONST_ANI_ARROW, target = false}
+	{name ="combat", interval = 1500, chance = 15, type = COMBAT_PHYSICALDAMAGE, minDamage = 0, maxDamage = -80, range = 7, shootEffect = CONST_ANI_ARROW, target = false}
 }
 
 monster.defenses = {

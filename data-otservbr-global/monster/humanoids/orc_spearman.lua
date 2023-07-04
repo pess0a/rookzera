@@ -17,9 +17,9 @@ monster.raceId = 50
 monster.Bestiary = {
 	class = "Humanoid",
 	race = BESTY_RACE_HUMANOID,
-	toKill = 500,
+	toKill = 1000,
 	FirstUnlock = 25,
-	SecondUnlock = 250,
+	SecondUnlock = 500,
 	CharmsPoints = 15,
 	Stars = 2,
 	Occurrence = 0,
@@ -78,19 +78,19 @@ monster.voices = {
 
 monster.loot = {
 	{name = "gold coin", chance = 25050, maxCount = 11},
-	{name = "spear", chance = 17440},
+	{name = "spear", chance = 7440},
 	{name = "machete", chance = 3000},
-	{name = "studded legs", chance = 10000},
+	{name = "studded legs", chance = 1000},
 	{name = "studded helmet", chance = 9000},
 	{name = "meat", chance = 30200},
-	{name = "orc tooth", chance = 150},
+	{name = "orc tooth", chance = 100},
 	{name = "orc leather", chance = 2300},
 	{id = 23986, chance = 1000} -- heavy old tome
 }
 
 monster.attacks = {
 	{name ="melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = -25},
-	{name ="combat", interval = 2000, chance = 20, type = COMBAT_PHYSICALDAMAGE, minDamage = 0, maxDamage = -30, range = 7, shootEffect = CONST_ANI_SPEAR, target = false}
+	{name ="combat", interval = 1500, chance = 20, type = COMBAT_PHYSICALDAMAGE, minDamage = 0, maxDamage = -30, range = 7, shootEffect = CONST_ANI_SPEAR, target = false}
 }
 
 monster.defenses = {

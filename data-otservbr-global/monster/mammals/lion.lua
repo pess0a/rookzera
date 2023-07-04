@@ -17,7 +17,7 @@ monster.raceId = 41
 monster.Bestiary = {
 	class = "Mammal",
 	race = BESTY_RACE_MAMMAL,
-	toKill = 500,
+	toKill = 100,
 	FirstUnlock = 25,
 	SecondUnlock = 250,
 	CharmsPoints = 15,
@@ -76,7 +76,7 @@ monster.voices = {
 monster.loot = {
 	{name = "meat", chance = 45000, maxCount = 4},
 	{name = "ham", chance = 18430, maxCount = 2},
-	{name = "lion's mane", chance = 1400}
+	{name = "lion's mane", chance = 100}
 }
 
 monster.attacks = {

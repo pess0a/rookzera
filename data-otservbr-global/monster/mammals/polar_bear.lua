@@ -17,7 +17,7 @@ monster.raceId = 42
 monster.Bestiary = {
 	class = "Mammal",
 	race = BESTY_RACE_MAMMAL,
-	toKill = 500,
+	toKill = 1000,
 	FirstUnlock = 25,
 	SecondUnlock = 250,
 	CharmsPoints = 15,
@@ -76,7 +76,7 @@ monster.voices = {
 monster.loot = {
 	{name = "meat", chance = 50500, maxCount = 4},
 	{name = "ham", chance = 50320, maxCount = 2},
-	{name = "polar bear paw", chance = 980}
+	{name = "polar bear paw", chance = 100}
 }
 
 monster.attacks = {
@@ -84,7 +84,7 @@ monster.attacks = {
 }
 
 monster.defenses = {
-	defense = 10,
+	defense = 15,
 	armor = 10
 }
 

@@ -21,7 +21,7 @@ monster.Bestiary = {
 	FirstUnlock = 50,
 	SecondUnlock = 500,
 	CharmsPoints = 25,
-	Stars = 3,
+	Stars = 4,
 	Occurrence = 0,
 	Locations = "Deep inside the Tiquanda Jungle including Tiquanda Laboratory and a small cave, \z
 		Forbidden Lands, Deeper Banuta, Arena and Zoo quarter in Yalahar."
@@ -81,7 +81,7 @@ monster.loot = {
 	{name = "sling herb", chance = 446, maxCount = 2},
 	{name = "shadow herb", chance = 880},
 	{name = "seeds", chance = 490},
-	{name = "carniphila seeds", chance = 4166},
+	{name = "carniphila seeds", chance = 120},
 	{name = "carrot on a stick", chance = 170}
 }
 

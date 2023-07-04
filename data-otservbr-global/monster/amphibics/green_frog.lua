@@ -2,7 +2,7 @@ local mType = Game.createMonsterType("Green Frog")
 local monster = {}
 
 monster.description = "a green frog"
-monster.experience = 0
+monster.experience = 20
 monster.outfit = {
 	lookType = 224,
 	lookHead = 0,
@@ -17,24 +17,24 @@ monster.raceId = 267
 monster.Bestiary = {
 	class = "Amphibic",
 	race = BESTY_RACE_AMPHIBIC,
-	toKill = 250,
-	FirstUnlock = 10,
-	SecondUnlock = 100,
-	CharmsPoints = 5,
+	toKill = 750,
+	FirstUnlock = 25,
+	SecondUnlock = 250,
+	CharmsPoints = 15,
 	Stars = 1,
 	Occurrence = 0,
 	Locations = "Meriana and other Shattered Isles, Port Hope caves, The Witches Cliff (only accessible during a quest)."
 	}
 
-monster.health = 25
-monster.maxHealth = 25
+monster.health = 60
+monster.maxHealth = 60
 monster.race = "venom"
 monster.corpse = 6079
 monster.speed = 160
 monster.manaCost = 250
 
 monster.changeTarget = {
-	interval = 5000,
+	interval = 4000,
 	chance = 0
 }
 
@@ -53,7 +53,7 @@ monster.flags = {
 	canPushItems = false,
 	canPushCreatures = false,
 	staticAttackChance = 90,
-	targetDistance = 6,
+	targetDistance = 1,
 	runHealth = 0,
 	healthHidden = false,
 	isBlockable = false,
@@ -83,7 +83,7 @@ monster.attacks = {
 
 monster.defenses = {
 	defense = 5,
-	armor = 5
+	armor = 8
 }
 
 monster.elements = {

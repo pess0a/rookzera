@@ -2,7 +2,7 @@ local mType = Game.createMonsterType("Bog Frog")
 local monster = {}
 
 monster.description = "a bog frog"
-monster.experience = 0
+monster.experience = 20
 monster.outfit = {
 	lookType = 412,
 	lookHead = 0,
@@ -17,17 +17,17 @@ monster.raceId = 738
 monster.Bestiary = {
 	class = "Amphibic",
 	race = BESTY_RACE_AMPHIBIC,
-	toKill = 250,
-	FirstUnlock = 10,
-	SecondUnlock = 100,
-	CharmsPoints = 5,
-	Stars = 1,
+	toKill = 750,
+	FirstUnlock = 25,
+	SecondUnlock = 250,
+	CharmsPoints = 15,
+	Stars = 2,
 	Occurrence = 0,
 	Locations = "Shadowthorn in the bog god's temple, Drefia, around Lake Equivocolao when it's dirty."
 	}
 
-monster.health = 25
-monster.maxHealth = 25
+monster.health = 60
+monster.maxHealth = 60
 monster.race = "blood"
 monster.corpse = 6079
 monster.speed = 160
@@ -74,11 +74,17 @@ monster.voices = {
 	{text = "Ribbit!", yell = false}
 }
 
-monster.loot = {
+monster.loot = {	
+    {name = "gold coin", chance = 74230, maxCount = 10},
+	{name = "worm", chance = 9240}
+}
+
+monster.attacks = {
+	{name ="melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = -24, effect = CONST_ME_DRAWBLOOD}
 }
 
 monster.defenses = {
-	defense = 5,
+	defense = 8,
 	armor = 10
 }
 

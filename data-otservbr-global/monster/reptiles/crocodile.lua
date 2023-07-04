@@ -17,7 +17,7 @@ monster.raceId = 119
 monster.Bestiary = {
 	class = "Reptile",
 	race = BESTY_RACE_REPTILE,
-	toKill = 500,
+	toKill = 1000,
 	FirstUnlock = 25,
 	SecondUnlock = 250,
 	CharmsPoints = 15,
@@ -27,7 +27,7 @@ monster.Bestiary = {
 		Fenrock, Arena and Zoo Quarter, Trade Quarter, Talahu, also located on Meriana and Laguna Islands."
 	}
 
-monster.health = 105
+monster.health = 120
 monster.maxHealth = 105
 monster.race = "blood"
 monster.corpse = 6046
@@ -78,7 +78,7 @@ monster.loot = {
 	{name = "gold coin", chance = 50000, maxCount = 10},
 	{name = "ham", chance = 40000},
 	{name = "crocodile boots", chance = 100},
-	{name = "piece of crocodile leather", chance = 20180}
+	{name = "piece of crocodile leather", chance = 200}
 }
 
 monster.attacks = {

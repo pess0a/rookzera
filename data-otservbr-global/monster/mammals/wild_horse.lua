@@ -17,20 +17,20 @@ monster.raceId = 730
 monster.Bestiary = {
 	class = "Mammal",
 	race = BESTY_RACE_MAMMAL,
-	toKill = 5,
-	FirstUnlock = 2,
-	SecondUnlock = 3,
+	toKill = 250,
+	FirstUnlock = 25,
+	SecondUnlock = 100,
 	CharmsPoints = 10,
 	Stars = 1,
 	Occurrence = 3,
 	Locations = "Near the Thais Troll Cave entrance during the Horse Station World Change."
 	}
 
-monster.health = 75
-monster.maxHealth = 75
+monster.health = 100
+monster.maxHealth = 100
 monster.race = "blood"
 monster.corpse = 0
-monster.speed = 124
+monster.speed = 150
 monster.manaCost = 0
 
 monster.changeTarget = {
@@ -79,8 +79,8 @@ monster.loot = {
 }
 
 monster.defenses = {
-	defense = 5,
-	armor = 10
+	defense = 10,
+	armor = 15
 }
 
 monster.elements = {

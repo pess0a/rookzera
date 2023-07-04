@@ -17,7 +17,7 @@ monster.raceId = 919
 monster.Bestiary = {
 	class = "Plant",
 	race = BESTY_RACE_PLANT,
-	toKill = 500,
+	toKill = 1000,
 	FirstUnlock = 25,
 	SecondUnlock = 250,
 	CharmsPoints = 15,
@@ -80,14 +80,14 @@ monster.loot = {
 	{id = 3003, chance = 5080}, -- rope
 	{name = "gold coin", chance = 84900, maxCount = 12},
 	{name = "white mushroom", chance = 10220, maxCount = 5},
-	{name = "swampling club", chance = 7410},
-	{name = "swampling moss", chance = 19900},
-	{name = "piece of swampling wood", chance = 14870}
+	{name = "swampling club", chance = 100},
+	{name = "swampling moss", chance = 100},
+	{name = "piece of swampling wood", chance = 100}
 }
 
 monster.attacks = {
-	{name ="melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = -80},
-	{name ="combat", interval = 2000, chance = 15, type = COMBAT_EARTHDAMAGE, minDamage = -2, maxDamage = -15, range = 7, shootEffect = CONST_ANI_POISON, target = false},
+	{name ="melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = -65},
+	{name ="combat", interval = 2000, chance = 15, type = COMBAT_EARTHDAMAGE, minDamage = -12, maxDamage = -30, range = 7, shootEffect = CONST_ANI_POISON, target = false},
 	{name ="speed", interval = 2000, chance = 15, speedChange = -300, length = 3, spread = 2, effect = CONST_ME_WATERSPLASH, target = false, duration = 5000}
 }
 

@@ -17,9 +17,9 @@ monster.raceId = 5
 monster.Bestiary = {
 	class = "Humanoid",
 	race = BESTY_RACE_HUMANOID,
-	toKill = 500,
+	toKill = 1000,
 	FirstUnlock = 25,
-	SecondUnlock = 250,
+	SecondUnlock = 500,
 	CharmsPoints = 15,
 	Stars = 2,
 	Occurrence = 0,
@@ -80,11 +80,11 @@ monster.loot = {
 	{name = "gold coin", chance = 84810, maxCount = 14},
 	{name = "sabre", chance = 5850},
 	{name = "axe", chance = 4960},
-	{name = "studded helmet", chance = 2950},
-	{name = "studded armor", chance = 7860},
-	{name = "studded shield", chance = 7300},
+	{name = "studded helmet", chance = 1550},
+	{name = "studded armor", chance = 4060},
+	{name = "studded shield", chance = 3800},
 	{name = "meat", chance = 10160},
-	{name = "orc tooth", chance = 210},
+	{name = "orc tooth", chance = 100},
 	{name = "orc leather", chance = 590},
 	{id = 23986, chance = 1000} -- heavy old tome
 }

@@ -17,9 +17,9 @@ monster.raceId = 25
 monster.Bestiary = {
 	class = "Humanoid",
 	race = BESTY_RACE_HUMANOID,
-	toKill = 500,
+	toKill = 1000,
 	FirstUnlock = 25,
-	SecondUnlock = 250,
+	SecondUnlock = 500,
 	CharmsPoints = 15,
 	Stars = 2,
 	Occurrence = 0,
@@ -78,18 +78,18 @@ monster.voices = {
 }
 
 monster.loot = {
-	{name = "gold coin", chance = 67500, maxCount = 25},
+	{name = "gold coin", chance = 67500, maxCount = 30},
 	{name = "bronze amulet", chance = 110},
-	{id = 3264, chance = 5000}, -- sword
+	{id = 3264, chance = 3000}, -- sword
 	{name = "axe", chance = 4000},
-	{name = "mace", chance = 12840},
-	{name = "brass helmet", chance = 7700},
-	{name = "chain armor", chance = 10000},
-	{name = "plate shield", chance = 20020},
+	{name = "mace", chance = 1500},
+	{name = "brass helmet", chance = 3500},
+	{name = "chain armor", chance = 1000},
+	{name = "plate shield", chance = 3020},
 	{id = 3457, chance = 310}, -- shovel
 	{name = "meat", chance = 5000},
-	{name = "minotaur leather", chance = 990},
-	{name = "minotaur horn", chance = 2090, maxCount = 2}
+	{name = "minotaur leather", chance = 100},
+	{name = "minotaur horn", chance = 100, maxCount = 1}
 }
 
 monster.attacks = {

@@ -18,10 +18,10 @@ monster.Bestiary = {
 	class = "Reptile",
 	race = BESTY_RACE_REPTILE,
 	toKill = 1000,
-	FirstUnlock = 50,
-	SecondUnlock = 500,
+	FirstUnlock = 25,
+	SecondUnlock = 250,
 	CharmsPoints = 25,
-	Stars = 3,
+	Stars = 4,
 	Occurrence = 0,
 	Locations = "Beregar, Black Knight's Villa, Chor, Ghostlands, Chyllfroest, Crystal Gardens, \z
 		Crystal Grounds, Dragon Lair (Edron), Drillworm Cave, Folda, Hero Fortress, Kazordoon, \z
@@ -81,11 +81,11 @@ monster.loot = {
 	{name = "emerald bangle", chance = 540},
 	{name = "small sapphire", chance = 5000},
 	{name = "gold coin", chance = 100000, maxCount = 90},
-	{name = "wand of inferno", chance = 810},
+	{name = "wand of inferno", chance = 100},
 	{name = "power bolt", chance = 3400, maxCount = 2},
 	{name = "dragon ham", chance = 60500, maxCount = 3},
-	{name = "wyvern fang", chance = 410},
-	{name = "strong health potion", chance = 2500},
+	{name = "wyvern fang", chance = 100},
+	{name = "strong health potion", chance = 0},
 	{name = "wyvern talisman", chance = 12300}
 }
 

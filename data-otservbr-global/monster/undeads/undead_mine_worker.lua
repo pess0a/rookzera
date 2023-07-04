@@ -17,7 +17,7 @@ monster.raceId = 594
 monster.Bestiary = {
 	class = "Undead",
 	race = BESTY_RACE_UNDEAD,
-	toKill = 500,
+	toKill = 1000,
 	FirstUnlock = 25,
 	SecondUnlock = 250,
 	CharmsPoints = 15,
@@ -79,7 +79,7 @@ monster.loot = {
 	{name = "gold coin", chance = 73000, maxCount = 10},
 	{id = 3115, chance = 42000}, -- bone
 	{id = 3264, chance = 3850}, -- sword
-	{name = "mace", chance = 26900},
+	{name = "mace", chance = 3600},
 	{name = "white mushroom", chance = 15400, maxCount = 3},
 	{name = "brown mushroom", chance = 3850}
 }

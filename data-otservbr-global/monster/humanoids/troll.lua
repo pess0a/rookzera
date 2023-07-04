@@ -17,9 +17,9 @@ monster.raceId = 15
 monster.Bestiary = {
 	class = "Humanoid",
 	race = BESTY_RACE_HUMANOID,
-	toKill = 250,
-	FirstUnlock = 10,
-	SecondUnlock = 100,
+	toKill = 750,
+	FirstUnlock = 25,
+	SecondUnlock = 500,
 	CharmsPoints = 5,
 	Stars = 1,
 	Occurrence = 0,
@@ -81,15 +81,15 @@ monster.voices = {
 monster.loot = {
 	{id = 3003, chance = 7950}, -- rope
 	{name = "gold coin", chance = 65300, maxCount = 12},
-	{name = "silver amulet", chance = 80},
-	{name = "hand axe", chance = 18000},
-	{name = "spear", chance = 13000},
+	{name = "silver amulet", chance = 20},
+	{name = "hand axe", chance = 9000},
+	{name = "spear", chance = 6000},
 	{name = "studded club", chance = 5000},
 	{name = "leather helmet", chance = 12000},
 	{id = 3412, chance = 4730}, -- wooden shield
 	{name = "leather boots", chance = 10000},
 	{name = "meat", chance = 15000},
-	{name = "bunch of troll hair", chance = 1000},
+	{name = "bunch of troll hair", chance = 100},
 	{id = 23986, chance = 1000} -- heavy old tome
 }
 

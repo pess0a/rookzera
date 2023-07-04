@@ -17,9 +17,9 @@ monster.raceId = 69
 monster.Bestiary = {
 	class = "Humanoid",
 	race = BESTY_RACE_HUMANOID,
-	toKill = 500,
+	toKill = 1000,
 	FirstUnlock = 25,
-	SecondUnlock = 250,
+	SecondUnlock = 500,
 	CharmsPoints = 15,
 	Stars = 2,
 	Occurrence = 0,
@@ -75,16 +75,16 @@ monster.voices = {
 }
 
 monster.loot = {
-	{name = "gold coin", chance = 35000, maxCount = 8},
-	{id = 3097, chance = 100}, -- dwarven ring
-	{name = "axe", chance = 15000},
-	{name = "hatchet", chance = 25000},
+	{name = "gold coin", chance = 35000, maxCount = 10},
+	{id = 3097, chance = 1}, -- dwarven ring
+	{name = "axe", chance = 10000},
+	{name = "hatchet", chance = 1500},
 	{name = "studded armor", chance = 8000},
-	{name = "copper shield", chance = 10000},
+	{name = "copper shield", chance = 800},
 	{id = 3456, chance = 10000}, -- pick
 	{id = 3505, chance = 8000}, -- letter
 	{name = "leather legs", chance = 10000},
-	{name = "white mushroom", chance = 50000},
+	{name = "white mushroom", chance = 25000},
 	{name = "iron ore", chance = 700}
 }
 

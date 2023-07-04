@@ -17,11 +17,11 @@ monster.raceId = 17
 monster.Bestiary = {
 	class = "Magical",
 	race = BESTY_RACE_MAGICAL,
-	toKill = 500,
+	toKill = 1000,
 	FirstUnlock = 25,
 	SecondUnlock = 250,
 	CharmsPoints = 15,
-	Stars = 2,
+	Stars = 3,
 	Occurrence = 0,
 	Locations = "Ancient Temple, Alatar Lake, Mount Sternum Undead Cave, Desert Dungeon, Hellgate, \z
 		Helheim, Fibula Dungeon, Villa Scapula, Hero Cave before Dragons, Eastern Drefia, Folda hidden cave, \z
@@ -78,7 +78,7 @@ monster.light = {
 monster.summon = {
 	maxSummons = 6,
 	summons = {
-		{name = "Skeleton", chance = 20, interval = 2000, count = 6}
+		{name = "Skeleton Warrior", chance = 20, interval = 2000, count = 6}
 	}
 }
 
@@ -94,32 +94,32 @@ monster.voices = {
 
 monster.loot = {
 	{name = "gold coin", chance = 99400, maxCount = 48},
-	{id = 3059, chance = 4990}, -- spellbook
-	{name = "terra rod", chance = 510},
-	{name = "two handed sword", chance = 3950},
-	{name = "morning star", chance = 7020},
-	{name = "longsword", chance = 9060},
-	{name = "steel shield", chance = 3980},
-	{name = "bonelord shield", chance = 110},
-	{name = "bonelord eye", chance = 1010},
-	{name = "mana potion", chance = 300},
-	{name = "small flask of eyedrops", chance = 5060}
+	{id = 3059, chance = 200}, -- spellbook
+	{name = "terra rod", chance = 100},
+	{name = "two handed sword", chance = 100},
+	{name = "morning star", chance = 100},
+	{name = "longsword", chance = 300},
+	{name = "steel shield", chance = 150},
+	{name = "bonelord shield", chance = 100},
+	{name = "bonelord eye", chance = 100},
+	{name = "mana potion", chance = 100},
+	{name = "small flask of eyedrops", chance = 3060}
 }
 
 monster.attacks = {
 	{name ="melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = -5},
-	{name ="combat", interval = 2000, chance = 5, type = COMBAT_ENERGYDAMAGE, minDamage = -15, maxDamage = -45, range = 7, shootEffect = CONST_ANI_ENERGY, target = false},
-	{name ="combat", interval = 2000, chance = 5, type = COMBAT_FIREDAMAGE, minDamage = -25, maxDamage = -45, range = 7, shootEffect = CONST_ANI_FIRE, target = false},
-	{name ="combat", interval = 2000, chance = 5, type = COMBAT_DEATHDAMAGE, minDamage = -30, maxDamage = -50, range = 7, shootEffect = CONST_ANI_SUDDENDEATH, effect = CONST_ME_SMALLCLOUDS, target = false},
+	{name ="combat", interval = 2000, chance = 5, type = COMBAT_ENERGYDAMAGE, minDamage = -15, maxDamage = -50, range = 7, shootEffect = CONST_ANI_ENERGY, target = false},
+	{name ="combat", interval = 2000, chance = 5, type = COMBAT_FIREDAMAGE, minDamage = -25, maxDamage = -50, range = 7, shootEffect = CONST_ANI_FIRE, target = false},
+	{name ="combat", interval = 2000, chance = 5, type = COMBAT_DEATHDAMAGE, minDamage = -30, maxDamage = -55, range = 7, shootEffect = CONST_ANI_SUDDENDEATH, effect = CONST_ME_SMALLCLOUDS, target = false},
 	{name ="combat", interval = 2000, chance = 5, type = COMBAT_EARTHDAMAGE, minDamage = -5, maxDamage = -45, range = 7, shootEffect = CONST_ANI_POISON, target = false},
 	{name ="combat", interval = 2000, chance = 5, type = COMBAT_DEATHDAMAGE, minDamage = -5, maxDamage = -50, range = 7, shootEffect = CONST_ANI_DEATH, target = false},
-	{name ="combat", interval = 2000, chance = 5, type = COMBAT_LIFEDRAIN, minDamage = 0, maxDamage = -45, range = 7, effect = CONST_ME_MAGIC_RED, target = false},
-	{name ="combat", interval = 2000, chance = 5, type = COMBAT_MANADRAIN, minDamage = -5, maxDamage = -35, range = 7, target = false}
+	{name ="combat", interval = 2000, chance = 5, type = COMBAT_LIFEDRAIN, minDamage = 0, maxDamage = -50, range = 7, effect = CONST_ME_MAGIC_RED, target = false},
+	{name ="combat", interval = 2000, chance = 5, type = COMBAT_MANADRAIN, minDamage = -5, maxDamage = -40, range = 7, target = false}
 }
 
 monster.defenses = {
-	defense = 5,
-	armor = 5
+	defense = 8,
+	armor = 10
 }
 
 monster.elements = {

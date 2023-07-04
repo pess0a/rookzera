@@ -17,9 +17,9 @@ monster.raceId = 13
 monster.Bestiary = {
 	class = "Mammal",
 	race = BESTY_RACE_MAMMAL,
-	toKill = 250,
+	toKill = 500,
 	FirstUnlock = 10,
-	SecondUnlock = 100,
+	SecondUnlock = 250,
 	CharmsPoints = 5,
 	Stars = 1,
 	Occurrence = 0,
@@ -75,7 +75,7 @@ monster.voices = {
 
 monster.loot = {
 	{name = "meat", chance = 70860, maxCount = 5},
-	{name = "black wool", chance = 1000}
+	{name = "black wool", chance = 500}
 }
 
 monster.defenses = {

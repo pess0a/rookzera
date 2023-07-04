@@ -17,11 +17,11 @@ monster.raceId = 211
 monster.Bestiary = {
 	class = "Mammal",
 	race = BESTY_RACE_MAMMAL,
-	toKill = 500,
+	toKill = 1000,
 	FirstUnlock = 25,
 	SecondUnlock = 250,
 	CharmsPoints = 15,
-	Stars = 2,
+	Stars = 3,
 	Occurrence = 0,
 	Locations = "East of Port Hope close to Grizzly Adams, deep in the jungle, \z
 		Arena and Zoo Quarter, Mammoth Shearing Factory."
@@ -80,8 +80,8 @@ monster.voices = {
 monster.loot = {
 	{name = "meat", chance = 39000, maxCount = 4},
 	{name = "ham", chance = 30000, maxCount = 3},
-	{name = "tusk", chance = 1000, maxCount = 2},
-	{name = "tusk shield", chance = 140}
+	{name = "tusk", chance = 100, maxCount = 2},
+	{name = "tusk shield", chance = 100}
 }
 
 monster.attacks = {

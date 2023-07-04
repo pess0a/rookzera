@@ -17,7 +17,7 @@ monster.raceId = 258
 monster.Bestiary = {
 	class = "Reptile",
 	race = BESTY_RACE_REPTILE,
-	toKill = 500,
+	toKill = 1000,
 	FirstUnlock = 25,
 	SecondUnlock = 250,
 	CharmsPoints = 15,
@@ -75,16 +75,16 @@ monster.voices = {
 
 monster.loot = {
 	{name = "gold coin", chance = 59000, maxCount = 30},
-	{name = "battle hammer", chance = 730},
-	{name = "plate shield", chance = 2850},
+	{name = "battle hammer", chance = 100},
+	{name = "plate shield", chance = 4000},
 	{id = 3578, chance = 4600}, -- fish
 	{name = "tortoise egg", chance = 770, maxCount = 2},
 	{id = 5899, chance = 1300}, -- turtle shell
-	{name = "tortoise shield", chance = 200}
+	{name = "tortoise shield", chance = 100}
 }
 
 monster.attacks = {
-	{name ="melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = -50}
+	{name ="melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = -60}
 }
 
 monster.defenses = {

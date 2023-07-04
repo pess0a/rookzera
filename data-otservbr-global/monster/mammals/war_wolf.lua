@@ -17,7 +17,7 @@ monster.raceId = 3
 monster.Bestiary = {
 	class = "Mammal",
 	race = BESTY_RACE_MAMMAL,
-	toKill = 500,
+	toKill = 1000,
 	FirstUnlock = 25,
 	SecondUnlock = 250,
 	CharmsPoints = 15,
@@ -77,8 +77,8 @@ monster.voices = {
 
 monster.loot = {
 	{name = "ham", chance = 35000, maxCount = 2},
-	{name = "wolf paw", chance = 710},
-	{name = "warwolf fur", chance = 5230}
+	{name = "wolf paw", chance = 310},
+	{name = "warwolf fur", chance = 130}
 }
 
 monster.attacks = {

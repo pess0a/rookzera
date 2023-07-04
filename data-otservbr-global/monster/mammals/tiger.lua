@@ -17,7 +17,7 @@ monster.raceId = 125
 monster.Bestiary = {
 	class = "Mammal",
 	race = BESTY_RACE_MAMMAL,
-	toKill = 500,
+	toKill = 1000,
 	FirstUnlock = 25,
 	SecondUnlock = 250,
 	CharmsPoints = 15,
@@ -76,7 +76,7 @@ monster.voices = {
 
 monster.loot = {
 	{name = "meat", chance = 35190, maxCount = 4},
-	{name = "striped fur", chance = 10830}
+	{name = "striped fur", chance = 230}
 }
 
 monster.attacks = {

@@ -17,9 +17,9 @@ monster.raceId = 52
 monster.Bestiary = {
 	class = "Mammal",
 	race = BESTY_RACE_MAMMAL,
-	toKill = 250,
-	FirstUnlock = 10,
-	SecondUnlock = 100,
+	toKill = 750,
+	FirstUnlock = 25,
+	SecondUnlock = 250,
 	CharmsPoints = 5,
 	Stars = 1,
 	Occurrence = 0,
@@ -75,7 +75,7 @@ monster.voices = {
 
 monster.loot = {
 	{name = "meat", chance = 30000, maxCount = 2},
-	{name = "winter wolf fur", chance = 10000}
+	{name = "winter wolf fur", chance = 200}
 }
 
 monster.attacks = {

@@ -17,7 +17,7 @@ monster.raceId = 595
 monster.Bestiary = {
 	class = "Undead",
 	race = BESTY_RACE_UNDEAD,
-	toKill = 500,
+	toKill = 1000,
 	FirstUnlock = 25,
 	SecondUnlock = 250,
 	CharmsPoints = 15,
@@ -80,14 +80,14 @@ monster.voices = {
 monster.loot = {
 	{id = 2920, chance = 46150}, -- torch
 	{name = "gold coin", chance = 53850, maxCount = 30},
-	{id = 3052, chance = 200}, -- life ring
+	{id = 3052, chance = 2000}, -- life ring
 	{id = 3114, chance = 240}, -- skull
 	{name = "knife", chance = 15380},
-	{name = "brass helmet", chance = 23000},
-	{name = "viking helmet", chance = 1000},
-	{name = "scale armor", chance = 1000},
+	{name = "brass helmet", chance = 2000},
+	{name = "viking helmet", chance = 2000},
+	{name = "scale armor", chance = 100},
 	{name = "worm", chance = 92310, maxCount = 6},
-	{name = "brown piece of cloth", chance = 1000}
+	{name = "brown piece of cloth", chance = 100}
 }
 
 monster.attacks = {

@@ -86,15 +86,15 @@ monster.loot = {
 	{name = "gold coin", chance = 90230, maxCount = 60},
 	{name = "bronze amulet", chance = 220},
 	{id = 3114, chance = 1000}, -- skull
-	{name = "spike sword", chance = 1000},
-	{name = "ice rapier", chance = 420},
-	{name = "katana", chance = 1560},
-	{name = "strange helmet", chance = 420},
-	{name = "vampire shield", chance = 230},
+	{name = "spike sword", chance = 100},
+	{name = "ice rapier", chance = 50},
+	{name = "katana", chance = 5060},
+	{name = "strange helmet", chance = 100},
+	{name = "vampire shield", chance = 100},
 	{name = "grave flower", chance = 1910},
-	{name = "strong health potion", chance = 1500},
-	{name = "vampire teeth", chance = 7600},
-	{name = "blood preservation", chance = 5100}
+	{name = "strong health potion", chance = 10},
+	{name = "vampire teeth", chance = 500},
+	{name = "blood preservation", chance = 100}
 }
 
 monster.attacks = {

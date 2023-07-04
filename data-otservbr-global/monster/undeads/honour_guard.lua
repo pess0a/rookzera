@@ -17,7 +17,7 @@ monster.raceId = 712
 monster.Bestiary = {
 	class = "Undead",
 	race = BESTY_RACE_UNDEAD,
-	toKill = 500,
+	toKill = 1000,
 	FirstUnlock = 25,
 	SecondUnlock = 250,
 	CharmsPoints = 15,
@@ -78,9 +78,9 @@ monster.voices = {
 
 monster.loot = {
 	{name = "gold coin", chance = 50000, maxCount = 15},
-	{name = "scarab coin", chance = 2600},
-	{name = "mace", chance = 3760},
-	{id = 3307, chance = 1640}, -- scimitar
+	{name = "scarab coin", chance = 1},
+	{name = "mace", chance = 3560},
+	{id = 3307, chance = 100}, -- scimitar
 	{name = "brown mushroom", chance = 6120, maxCount = 2},
 	{name = "pelvis bone", chance = 8700}
 }

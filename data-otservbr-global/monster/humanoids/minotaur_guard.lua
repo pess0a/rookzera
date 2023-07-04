@@ -17,9 +17,9 @@ monster.raceId = 29
 monster.Bestiary = {
 	class = "Humanoid",
 	race = BESTY_RACE_HUMANOID,
-	toKill = 500,
+	toKill = 1000,
 	FirstUnlock = 25,
-	SecondUnlock = 250,
+	SecondUnlock = 500,
 	CharmsPoints = 15,
 	Stars = 2,
 	Occurrence = 0,
@@ -28,7 +28,7 @@ monster.Bestiary = {
 		Plains of Havoc, Kazordoon Minotaur Cave, Foreigner Quarter."
 	}
 
-monster.health = 185
+monster.health = 200
 monster.maxHealth = 185
 monster.race = "blood"
 monster.corpse = 5983
@@ -80,16 +80,16 @@ monster.voices = {
 
 monster.loot = {
 	{name = "gold coin", chance = 59640, maxCount = 20},
-	{name = "double axe", chance = 400},
-	{name = "chain armor", chance = 2980},
-	{name = "brass armor", chance = 4390},
-	{name = "battle shield", chance = 2150},
+	{name = "double axe", chance = 100},
+	{name = "chain armor", chance = 3000},
+	{name = "brass armor", chance = 200},
+	{name = "battle shield", chance = 100},
 	{name = "fishing rod", chance = 480},
-	{name = "minotaur leather", chance = 1000},
+	{name = "minotaur leather", chance = 200},
 	{id = 7401, chance = 80}, -- minotaur trophy
-	{name = "health potion", chance = 400},
-	{name = "minotaur horn", chance = 8330, maxCount = 2},
-	{name = "piece of warrior armor", chance = 5040}
+	{name = "health potion", chance = 100},
+	{name = "minotaur horn", chance = 100, maxCount = 2},
+	{name = "piece of warrior armor", chance = 100}
 }
 
 monster.attacks = {

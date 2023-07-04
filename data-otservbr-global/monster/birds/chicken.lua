@@ -17,7 +17,7 @@ monster.raceId = 111
 monster.Bestiary = {
 	class = "Bird",
 	race = BESTY_RACE_BIRD,
-	toKill = 250,
+	toKill = 500,
 	FirstUnlock = 10,
 	SecondUnlock = 100,
 	CharmsPoints = 5,
@@ -80,7 +80,7 @@ monster.loot = {
 	{name = "meat", chance = 2120, maxCount = 2},
 	{id = 3606, chance = 950}, -- egg
 	{name = "worm", chance = 10000, maxCount = 3},
-	{name = "chicken feather", chance = 20000}
+	{name = "chicken feather", chance = 200}
 }
 
 monster.defenses = {

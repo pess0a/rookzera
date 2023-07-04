@@ -17,7 +17,7 @@ monster.raceId = 65
 monster.Bestiary = {
 	class = "Undead",
 	race = BESTY_RACE_UNDEAD,
-	toKill = 500,
+	toKill = 1000,
 	FirstUnlock = 25,
 	SecondUnlock = 250,
 	CharmsPoints = 15,
@@ -85,13 +85,13 @@ monster.loot = {
 	{name = "black pearl", chance = 1000},
 	{name = "gold coin", chance = 38000, maxCount = 80},
 	{name = "strange talisman", chance = 5000},
-	{id = 3046, chance = 5800}, -- magic light wand
+	{id = 3046, chance = 500}, -- magic light wand
 	{name = "silver amulet", chance = 100},
-	{name = "poison dagger", chance = 450},
-	{name = "black shield", chance = 170},
+	{name = "poison dagger", chance = 150},
+	{name = "black shield", chance = 100},
 	{name = "worm", chance = 19000, maxCount = 3},
-	{name = "yellow piece of cloth", chance = 900},
-	{name = "gauze bandage", chance = 10000},
+	{name = "yellow piece of cloth", chance = 100},
+	{name = "gauze bandage", chance = 100},
 	{name = "mini mummy", chance = 10},
 	{name = "flask of embalming fluid", chance = 11690}
 }

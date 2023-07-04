@@ -17,7 +17,7 @@ monster.raceId = 914
 monster.Bestiary = {
 	class = "Bird",
 	race = BESTY_RACE_BIRD,
-	toKill = 500,
+	toKill = 1000,
 	FirstUnlock = 25,
 	SecondUnlock = 250,
 	CharmsPoints = 15,
@@ -78,21 +78,21 @@ monster.loot = {
 	{name = "meat", chance = 19950, maxCount = 2},
 	{id = 3578, chance = 20320, maxCount = 2}, -- fish
 	{name = "worm", chance = 14730, maxCount = 2},
-	{name = "marsh stalker feather", chance = 8650},
-	{name = "longsword", chance = 7560},
-	{name = "marsh stalker beak", chance = 6080},
+	{name = "marsh stalker feather", chance = 150},
+	{name = "longsword", chance = 100},
+	{name = "marsh stalker beak", chance = 3080},
 	{id = 3003, chance = 4830}, -- rope
 	{name = "seeds", chance = 110}
 }
 
 monster.attacks = {
-	{name ="melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = -10},
-	{name ="combat", interval = 2000, chance = 20, type = COMBAT_PHYSICALDAMAGE, minDamage = 0, maxDamage = -8, range = 7, radius = 1, shootEffect = CONST_ANI_EXPLOSION, effect = CONST_ME_EXPLOSIONAREA, target = true}
+	{name ="melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = -25},
+	{name ="combat", interval = 2000, chance = 20, type = COMBAT_PHYSICALDAMAGE, minDamage = 0, maxDamage = -10, range = 7, radius = 1, shootEffect = CONST_ANI_EXPLOSION, effect = CONST_ME_EXPLOSIONAREA, target = true}
 }
 
 monster.defenses = {
-	defense = 3,
-	armor = 3
+	defense = 12,
+	armor = 8
 }
 
 monster.elements = {

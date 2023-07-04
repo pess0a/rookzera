@@ -17,11 +17,11 @@ monster.raceId = 117
 monster.Bestiary = {
 	class = "Mammal",
 	race = BESTY_RACE_MAMMAL,
-	toKill = 500,
+	toKill = 1000,
 	FirstUnlock = 25,
 	SecondUnlock = 250,
 	CharmsPoints = 15,
-	Stars = 2,
+	Stars = 3,
 	Occurrence = 0,
 	Locations = "Banuta, north-east of Port Hope."
 	}
@@ -78,20 +78,20 @@ monster.voices = {
 monster.loot = {
 	{name = "gold coin", chance = 69500, maxCount = 45},
 	{name = "small amethyst", chance = 260},
-	{id = 3046, chance = 3000}, -- magic light wand
-	{name = "wand of decay", chance = 1050},
+	{id = 3046, chance = 1000}, -- magic light wand
+	{name = "wand of decay", chance = 100},
 	{name = "orange", chance = 1000, maxCount = 5},
 	{name = "banana", chance = 30350, maxCount = 12},
 	{name = "banana staff", chance = 100},
-	{name = "ape fur", chance = 1000},
-	{name = "mana potion", chance = 660},
+	{name = "ape fur", chance = 150},
+	{name = "mana potion", chance = 100},
 	{name = "banana sash", chance = 1800}
 }
 
 monster.attacks = {
-	{name ="melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = -30},
+	{name ="melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = -10},
 	{name ="combat", interval = 2000, chance = 15, type = COMBAT_FIREDAMAGE, minDamage = -60, maxDamage = -90, range = 7, shootEffect = CONST_ANI_FIRE, effect = CONST_ME_HITBYFIRE, target = false},
-	{name ="combat", interval = 2000, chance = 20, type = COMBAT_ENERGYDAMAGE, minDamage = -15, maxDamage = -45, range = 7, shootEffect = CONST_ANI_ENERGY, effect = CONST_ME_ENERGYHIT, target = false},
+	{name ="combat", interval = 2000, chance = 20, type = COMBAT_ENERGYDAMAGE, minDamage = -35, maxDamage = -75, range = 7, shootEffect = CONST_ANI_ENERGY, effect = CONST_ME_ENERGYHIT, target = false},
 	{name ="poisonfield", interval = 2000, chance = 15, range = 7, radius = 1, shootEffect = CONST_ANI_POISON, target = true}
 }
 

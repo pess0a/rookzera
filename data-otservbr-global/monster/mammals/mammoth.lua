@@ -17,11 +17,11 @@ monster.raceId = 260
 monster.Bestiary = {
 	class = "Mammal",
 	race = BESTY_RACE_MAMMAL,
-	toKill = 500,
+	toKill = 1000,
 	FirstUnlock = 25,
 	SecondUnlock = 250,
 	CharmsPoints = 15,
-	Stars = 2,
+	Stars = 3,
 	Occurrence = 0,
 	Locations = "Formorgar Glacier, Tyrsung, around the Barbarian Settlements, Mammoth Shearing Factory, Chyllfroest."
 	}
@@ -79,11 +79,11 @@ monster.loot = {
 	{name = "gold coin", chance = 90000, maxCount = 40},
 	{name = "meat", chance = 39000},
 	{name = "ham", chance = 30000, maxCount = 3},
-	{name = "tusk shield", chance = 500},
-	{name = "mammoth whopper", chance = 2800},
-	{name = "furry club", chance = 500},
-	{name = "thick fur", chance = 7280},
-	{name = "mammoth tusk", chance = 7500, maxCount = 2}
+	{name = "tusk shield", chance = 120},
+	{name = "mammoth whopper", chance = 100},
+	{name = "furry club", chance = 100},
+	{name = "thick fur", chance = 180},
+	{name = "mammoth tusk", chance = 100, maxCount = 2}
 }
 
 monster.attacks = {

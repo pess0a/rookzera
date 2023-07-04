@@ -17,9 +17,9 @@ monster.raceId = 23
 monster.Bestiary = {
 	class = "Humanoid",
 	race = BESTY_RACE_HUMANOID,
-	toKill = 250,
+	toKill = 1000,
 	FirstUnlock = 25,
-	SecondUnlock = 250,
+	SecondUnlock = 500,
 	CharmsPoints = 15,
 	Stars = 2,
 	Occurrence = 0,
@@ -29,8 +29,8 @@ monster.Bestiary = {
 		Rookgaard Minotaur Hell (not reachable)."
 	}
 
-monster.health = 155
-monster.maxHealth = 155
+monster.health = 180
+monster.maxHealth = 180
 monster.race = "blood"
 monster.corpse = 5981
 monster.speed = 85
@@ -84,16 +84,16 @@ monster.loot = {
 	{name = "leather helmet", chance = 3000},
 	{name = "leather legs", chance = 5190},
 	{id = 3595, chance = 15003, maxCount = 8}, -- carrot
-	{name = "minotaur leather", chance = 2290},
-	{name = "taurus mace", chance = 1000},
-	{name = "mana potion", chance = 490},
-	{name = "minotaur horn", chance = 3020, maxCount = 2},
-	{name = "purple robe", chance = 6430, maxCount = 2}
+	{name = "minotaur leather", chance = 200},
+	{name = "taurus mace", chance = 100},
+	{name = "mana potion", chance = 100},
+	{name = "minotaur horn", chance = 300, maxCount = 2},
+	{name = "purple robe", chance = 100, maxCount = 2}
 }
 
 monster.attacks = {
 	{name ="melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = -20},
-	{name ="combat", interval = 2000, chance = 15, type = COMBAT_ENERGYDAMAGE, minDamage = -20, maxDamage = -59, range = 7, shootEffect = CONST_ANI_ENERGY, effect = CONST_ME_ENERGYHIT, target = false},
+	{name ="combat", interval = 2000, chance = 15, type = COMBAT_ENERGYDAMAGE, minDamage = -50, maxDamage = -105, range = 7, shootEffect = CONST_ANI_ENERGY, effect = CONST_ME_ENERGYHIT, target = false},
 	{name ="combat", interval = 2000, chance = 15, type = COMBAT_FIREDAMAGE, minDamage = -50, maxDamage = -105, range = 7, radius = 1, shootEffect = CONST_ANI_FIRE, effect = CONST_ME_FIREAREA, target = true},
 	{name ="energyfield", interval = 2000, chance = 10, range = 7, radius = 1, shootEffect = CONST_ANI_ENERGYBALL, target = true}
 }

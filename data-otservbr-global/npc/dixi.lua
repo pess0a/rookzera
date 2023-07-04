@@ -144,26 +144,26 @@ npcHandler:setMessage(MESSAGE_SENDTRADE, 'Here, take a look and choose something
 npcHandler:addModule(FocusModule:new(), npcConfig.name, true, true, true)
 
 npcConfig.shop = {
-	{ itemName = "brass helmet", clientId = 3354, sell = 22 },
-	{ itemName = "brass shield", clientId = 3411, sell = 25 },
-	{ itemName = "chain armor", clientId = 3358, sell = 40 },
-	{ itemName = "chain helmet", clientId = 3352, buy = 52, sell = 12 },
+	{ itemName = "brass helmet", clientId = 3354, sell = 150 },
+	{ itemName = "brass shield", clientId = 3411, sell = 200 },
+	{ itemName = "chain armor", clientId = 3358, sell = 400 },
+	{ itemName = "chain helmet", clientId = 3352, buy = 200, sell = 100 },
 	{ itemName = "coat", clientId = 3562, buy = 8 },
-	{ itemName = "copper shield", clientId = 3430, sell = 50 },
+	{ itemName = "copper shield", clientId = 3430, sell = 400 },
 	{ itemName = "doublet", clientId = 3379, buy = 16, sell = 3 },
 	{ itemName = "jacket", clientId = 3561, buy = 10 },
 	{ itemName = "leather armor", clientId = 3361, buy = 25, sell = 5 },
 	{ itemName = "leather boots", clientId = 3552, sell = 2 },
 	{ itemName = "leather helmet", clientId = 3355, buy = 12, sell = 3 },
 	{ itemName = "leather legs", clientId = 3559, buy = 10, sell = 2 },
-	{ itemName = "legion helmet", clientId = 3374, sell = 22 },
-	{ itemName = "plate shield", clientId = 3410, sell = 40 },
+	{ itemName = "legion helmet", clientId = 3374, sell = 350 },
+	{ itemName = "plate shield", clientId = 3410, sell = 200 },
 	{ itemName = "studded armor", clientId = 3378, sell = 10 },
 	{ itemName = "studded helmet", clientId = 3376, buy = 63, sell = 20 },
 	{ itemName = "studded legs", clientId = 3362, sell = 15 },
 	{ itemName = "studded shield", clientId = 3426, buy = 50, sell = 16 },
-	{ itemName = "viking helmet", clientId = 3367, sell = 25 },
-	{ itemName = "wooden shield", clientId = 3412, buy = 15 }
+	{ itemName = "viking helmet", clientId = 3367, sell = 250 },
+	{ itemName = "wooden shield", clientId = 3412, buy = 20 }
 }
 -- On buy npc shop message
 npcType.onBuyItem = function(npc, player, itemId, subType, amount, ignore, inBackpacks, totalCost)

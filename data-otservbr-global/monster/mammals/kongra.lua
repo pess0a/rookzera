@@ -17,7 +17,7 @@ monster.raceId = 116
 monster.Bestiary = {
 	class = "Mammal",
 	race = BESTY_RACE_MAMMAL,
-	toKill = 500,
+	toKill = 1000,
 	FirstUnlock = 25,
 	SecondUnlock = 250,
 	CharmsPoints = 15,
@@ -77,14 +77,14 @@ monster.voices = {
 
 monster.loot = {
 	{name = "gold coin", chance = 69000, maxCount = 40},
-	{id = 3050, chance = 300}, -- power ring
+	{id = 3050, chance = 30}, -- power ring
 	{name = "protection amulet", chance = 990},
-	{id = 3093, chance = 230}, -- club ring
-	{name = "plate armor", chance = 950},
+	{id = 3093, chance = 23}, -- club ring
+	{name = "plate armor", chance = 100},
 	{name = "banana", chance = 30000, maxCount = 12},
-	{name = "ape fur", chance = 980},
-	{name = "health potion", chance = 570},
-	{name = "kongra's shoulderpad", chance = 4900}
+	{name = "ape fur", chance = 120},
+	{name = "health potion", chance = 1},
+	{name = "kongra's shoulderpad", chance = 100}
 }
 
 monster.attacks = {

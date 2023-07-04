@@ -17,9 +17,9 @@ monster.raceId = 62
 monster.Bestiary = {
 	class = "Humanoid",
 	race = BESTY_RACE_HUMANOID,
-	toKill = 500,
+	toKill = 1000,
 	FirstUnlock = 25,
-	SecondUnlock = 250,
+	SecondUnlock = 500,
 	CharmsPoints = 15,
 	Stars = 2,
 	Occurrence = 0,
@@ -80,11 +80,11 @@ monster.voices = {
 
 monster.loot = {
 	{name = "gold coin", chance = 44000, maxCount = 30},
-	{name = "longsword", chance = 10800},
-	{name = "studded helmet", chance = 13500},
+	{name = "longsword", chance = 100},
+	{name = "studded helmet", chance = 5000},
 	{name = "studded armor", chance = 8960},
-	{name = "plate shield", chance = 9300},
-	{name = "arrow", chance = 7060, maxCount = 3},
+	{name = "plate shield", chance = 3000},
+	{name = "arrow", chance = 4500, maxCount = 3},
 	{name = "leather boots", chance = 11410},
 	{id = 5921, chance = 940}, -- heaven blossom
 	{name = "plum", chance = 20000, maxCount = 2},
@@ -92,13 +92,13 @@ monster.loot = {
 }
 
 monster.attacks = {
-	{name ="melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = -15},
+	{name ="melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = -35},
 	{name ="combat", interval = 2000, chance = 10, type = COMBAT_PHYSICALDAMAGE, minDamage = 0, maxDamage = -25, range = 7, shootEffect = CONST_ANI_ARROW, target = false}
 }
 
 monster.defenses = {
-	defense = 10,
-	armor = 10
+	defense = 11,
+	armor = 12
 }
 
 monster.elements = {

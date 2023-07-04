@@ -17,9 +17,9 @@ monster.raceId = 392
 monster.Bestiary = {
 	class = "Humanoid",
 	race = BESTY_RACE_HUMANOID,
-	toKill = 500,
+	toKill = 1000,
 	FirstUnlock = 25,
-	SecondUnlock = 250,
+	SecondUnlock = 500,
 	CharmsPoints = 15,
 	Stars = 2,
 	Occurrence = 0,
@@ -81,18 +81,18 @@ monster.voices = {
 monster.loot = {
 	{name = "gold coin", chance = 64000, maxCount = 12},
 	{name = "silver amulet", chance = 230},
-	{name = "spear", chance = 25000},
+	{name = "spear", chance = 5000},
 	{name = "studded club", chance = 5450},
 	{id = 3412, chance = 6000}, -- wooden shield
-	{name = "arrow", chance = 5450, maxCount = 5},
+	{name = "arrow", chance = 1, maxCount = 5},
 	{name = "leather boots", chance = 9000},
 	{name = "meat", chance = 9650},
-	{name = "bunch of troll hair", chance = 3000},
+	{name = "bunch of troll hair", chance = 150},
 	{name = "trollroot", chance = 750}
 }
 
 monster.attacks = {
-	{name ="melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = -35}
+	{name ="melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = -30}
 }
 
 monster.defenses = {
