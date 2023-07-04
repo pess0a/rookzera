@@ -2459,7 +2459,7 @@
 	</monster>
 	<monster centerx="31916" centery="32259" centerz="9" radius="1">
 		<monster name="Swampling" x="0" y="0" z="9" spawntime="60" />
-		<monster name="Swampling" x="0" y="1" z="9" spawntime="-1421283584" />
+		<monster name="Swampling" x="0" y="1" z="9" spawntime="60" />
 	</monster>
 	<monster centerx="31959" centery="32259" centerz="9" radius="1">
 		<monster name="Swampling" x="0" y="0" z="9" spawntime="60" />
