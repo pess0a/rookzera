@@ -12,6 +12,9 @@
 	<npc centerx="32085" centery="32200" centerz="7" radius="1">
 		<npc name="Tom" x="0" y="0" z="7" spawntime="60" />
 	</npc>
+	<npc centerx="32104" centery="32202" centerz="7" radius="1">
+		<npc name="Imbuement Assistant" x="0" y="0" z="7" spawntime="60" />
+	</npc>
 	<npc centerx="32108" centery="32203" centerz="7" radius="1">
 		<npc name="Obi" x="0" y="0" z="7" spawntime="60" />
 	</npc>
