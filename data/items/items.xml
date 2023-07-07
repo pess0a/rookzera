@@ -7209,6 +7209,7 @@
 			<attribute key="elemental protection earth" value="3"/>
 			<attribute key="elemental protection fire" value="3"/>
 			<attribute key="skillboost shielding" value="3"/>
+					</attribute>
 	</item>
 	<item id="3410" article="a" name="plate shield">
 		<attribute key="weaponType" value="shield"/>
