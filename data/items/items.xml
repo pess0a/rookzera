@@ -30551,6 +30551,7 @@
 			<attribute key="elemental protection earth" value="3"/>
 			<attribute key="elemental protection fire" value="3"/>
 			<attribute key="skillboost shielding" value="3"/>
+					</attribute>
 	</item>
 	<item id="19364" name="RESERVED SPRITE"/>
 	<item id="19365" article="a" name="trapped lightning">
@@ -30591,6 +30592,7 @@
 			<attribute key="elemental protection earth" value="3"/>
 			<attribute key="elemental protection fire" value="3"/>
 			<attribute key="skillboost shielding" value="3"/>
+					</attribute>
 	</item>
 	<item id="19374" name="vampire silk slippers">
 		<attribute key="weight" value="1150"/>
