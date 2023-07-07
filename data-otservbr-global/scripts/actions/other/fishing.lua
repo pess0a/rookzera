@@ -94,12 +94,15 @@ function fishing.onUse(player, item, fromPosition, target, toPosition, isHotkey)
 		end
 	end
 
-
+	if player:getItemCount(3492) > 0 then
+		player:addSkillTries(SKILL_FISHING, 1, true)
+	end
+	
 	if math.random(100) <= math.min(math.max(10 + (player:getEffectiveSkillLevel(SKILL_FISHING) - 10) * 0.597, 10), 50) then
 		if useWorms and not player:removeItem("worm", 1) then
 			return true
 		end
-		player:addSkillTries(SKILL_FISHING, 1, true)
+		
 
 		if targetId == 13988 then
 			target:transform(targetId + 1)
