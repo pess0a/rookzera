@@ -96,7 +96,7 @@ function fishing.onUse(player, item, fromPosition, target, toPosition, isHotkey)
 
 	player:addSkillTries(SKILL_FISHING, 1, true)
 	if math.random(100) <= math.min(math.max(10 + (player:getEffectiveSkillLevel(SKILL_FISHING) - 10) * 0.597, 10), 50) then
-		if useWorms and not player:removeItem("worm", 1) then
+		if useWorms then
 			return true
 		end
 
@@ -125,6 +125,7 @@ function fishing.onUse(player, item, fromPosition, target, toPosition, isHotkey)
 			end
 		end
 		player:addItem(3578, 1)
+		player:removeItem("worm", 1)
 	end
 	return true
 end
