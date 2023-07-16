@@ -7177,6 +7177,7 @@
 			<attribute key="elemental protection earth" value="3"/>
 			<attribute key="elemental protection fire" value="3"/>
 			<attribute key="skillboost shielding" value="3"/>
+			</attribute>
 	</item>
 	<item id="3410" article="a" name="plate shield">
 		<attribute key="weaponType" value="shield"/>
@@ -7186,6 +7187,7 @@
 			<attribute key="elemental protection earth" value="3"/>
 			<attribute key="elemental protection fire" value="3"/>
 			<attribute key="skillboost shielding" value="3"/>
+			</attribute>
 	</item>
 	<item id="3411" article="a" name="brass shield">
 		<attribute key="weaponType" value="shield"/>
@@ -7195,6 +7197,7 @@
 			<attribute key="elemental protection earth" value="3"/>
 			<attribute key="elemental protection fire" value="3"/>
 			<attribute key="skillboost shielding" value="3"/>
+			</attribute>
 	</item>
 	<item id="3412" article="a" name="wooden shield">
 		<attribute key="weaponType" value="shield"/>
@@ -7204,6 +7207,7 @@
 			<attribute key="elemental protection earth" value="3"/>
 			<attribute key="elemental protection fire" value="3"/>
 			<attribute key="skillboost shielding" value="3"/>
+			</attribute>
 	</item>
 	<item id="3413" article="a" name="battle shield">
 		<attribute key="weaponType" value="shield"/>
@@ -7213,6 +7217,7 @@
 			<attribute key="elemental protection earth" value="3"/>
 			<attribute key="elemental protection fire" value="3"/>
 			<attribute key="skillboost shielding" value="3"/>
+			</attribute>
 	</item>
 	<item id="3414" article="a" name="mastermind shield">
 		<attribute key="description" value="It's an enchanted shield"/>
@@ -7223,6 +7228,7 @@
 			<attribute key="elemental protection earth" value="3"/>
 			<attribute key="elemental protection fire" value="3"/>
 			<attribute key="skillboost shielding" value="3"/>
+			</attribute>
 	</item>
 	<item id="3415" article="a" name="guardian shield">
 		<attribute key="weaponType" value="shield"/>
@@ -7232,6 +7238,7 @@
 			<attribute key="elemental protection earth" value="3"/>
 			<attribute key="elemental protection fire" value="3"/>
 			<attribute key="skillboost shielding" value="3"/>
+			</attribute>
 	</item>
 	<item id="3416" article="a" name="dragon shield">
 		<attribute key="weaponType" value="shield"/>
@@ -7241,6 +7248,7 @@
 			<attribute key="elemental protection earth" value="3"/>
 			<attribute key="elemental protection fire" value="3"/>
 			<attribute key="skillboost shielding" value="3"/>
+			</attribute>
 	</item>
 	<item id="3417" article="a" name="shield of honour">
 		<attribute key="description" value="A mighty shield awarded by the gods of Tibia"/>
@@ -7251,6 +7259,7 @@
 			<attribute key="elemental protection earth" value="3"/>
 			<attribute key="elemental protection fire" value="3"/>
 			<attribute key="skillboost shielding" value="3"/>
+			</attribute>
 	</item>
 	<item id="3418" article="a" name="bonelord shield">
 		<attribute key="weaponType" value="shield"/>
@@ -7260,6 +7269,7 @@
 			<attribute key="elemental protection earth" value="3"/>
 			<attribute key="elemental protection fire" value="3"/>
 			<attribute key="skillboost shielding" value="3"/>
+			</attribute>
 	</item>
 	<item id="3419" article="a" name="crown shield">
 		<attribute key="weaponType" value="shield"/>
@@ -7269,6 +7279,7 @@
 			<attribute key="elemental protection earth" value="3"/>
 			<attribute key="elemental protection fire" value="3"/>
 			<attribute key="skillboost shielding" value="3"/>
+			</attribute>
 	</item>
 	<item id="3420" article="a" name="demon shield">
 		<attribute key="description" value="This powerful shield seems to be as light as air"/>
@@ -7293,6 +7304,7 @@
 			<attribute key="elemental protection earth" value="3"/>
 			<attribute key="elemental protection fire" value="3"/>
 			<attribute key="skillboost shielding" value="3"/>
+			</attribute>
 	</item>
 	<item id="3422" article="a" name="great shield">
 		<attribute key="description" value="The shield is made of dragon scales"/>
@@ -7324,6 +7336,7 @@
 			<attribute key="elemental protection earth" value="3"/>
 			<attribute key="elemental protection fire" value="3"/>
 			<attribute key="skillboost shielding" value="3"/>
+			</attribute>
 	</item>
 	<item id="3425" article="a" name="dwarven shield excluido">
 		<attribute key="weaponType" value="shield"/>
@@ -7333,6 +7346,7 @@
 			<attribute key="elemental protection earth" value="3"/>
 			<attribute key="elemental protection fire" value="3"/>
 			<attribute key="skillboost shielding" value="3"/>
+			</attribute>
 	</item>
 	<item id="3426" article="a" name="studded shield">
 		<attribute key="weaponType" value="shield"/>
@@ -7342,6 +7356,7 @@
 			<attribute key="elemental protection earth" value="3"/>
 			<attribute key="elemental protection fire" value="3"/>
 			<attribute key="skillboost shielding" value="3"/>
+			</attribute>
 	</item>
 	<item id="3427" article="a" name="rose shield">
 		<attribute key="weaponType" value="shield"/>
@@ -7351,6 +7366,7 @@
 			<attribute key="elemental protection earth" value="3"/>
 			<attribute key="elemental protection fire" value="3"/>
 			<attribute key="skillboost shielding" value="3"/>
+			</attribute>
 	</item>
 	<item id="3428" article="a" name="tower shield">
 		<attribute key="weaponType" value="shield"/>
@@ -7360,6 +7376,7 @@
 			<attribute key="elemental protection earth" value="3"/>
 			<attribute key="elemental protection fire" value="3"/>
 			<attribute key="skillboost shielding" value="3"/>
+			</attribute>
 	</item>
 	<item id="3429" article="a" name="black shield">
 		<attribute key="description" value="Uma criatura profana cobre o escudo"/>
@@ -7370,6 +7387,7 @@
 			<attribute key="elemental protection earth" value="3"/>
 			<attribute key="elemental protection fire" value="3"/>
 			<attribute key="skillboost shielding" value="3"/>
+			</attribute>
 	</item>
 	<item id="3430" article="a" name="copper shield">
 		<attribute key="weaponType" value="shield"/>
@@ -7379,6 +7397,7 @@
 			<attribute key="elemental protection earth" value="3"/>
 			<attribute key="elemental protection fire" value="3"/>
 			<attribute key="skillboost shielding" value="3"/>
+			</attribute>
 	</item>
 	<item id="3431" article="a" name="viking shield">
 		<attribute key="weaponType" value="shield"/>
@@ -7388,6 +7407,7 @@
 			<attribute key="elemental protection earth" value="3"/>
 			<attribute key="elemental protection fire" value="3"/>
 			<attribute key="skillboost shielding" value="3"/>
+			</attribute>
 	</item>
 	<item id="3432" article="an" name="ancient shield">
 		<attribute key="weaponType" value="shield"/>
@@ -7397,6 +7417,7 @@
 			<attribute key="elemental protection earth" value="3"/>
 			<attribute key="elemental protection fire" value="3"/>
 			<attribute key="skillboost shielding" value="3"/>
+			</attribute>
 	</item>
 	<item id="3433" article="a" name="griffin shield">
 		<attribute key="weaponType" value="shield"/>
@@ -7406,6 +7427,7 @@
 			<attribute key="elemental protection earth" value="3"/>
 			<attribute key="elemental protection fire" value="3"/>
 			<attribute key="skillboost shielding" value="3"/>
+			</attribute>
 	</item>
 	<item id="3434" article="a" name="vampire shield">
 		<attribute key="description" value="Dark powers enchant this shield"/>
@@ -7416,6 +7438,7 @@
 			<attribute key="elemental protection earth" value="3"/>
 			<attribute key="elemental protection fire" value="3"/>
 			<attribute key="skillboost shielding" value="3"/>
+			</attribute>
 	</item>
 	<item id="3435" article="a" name="castle shield">
 		<attribute key="weaponType" value="shield"/>
@@ -7425,6 +7448,7 @@
 			<attribute key="elemental protection earth" value="3"/>
 			<attribute key="elemental protection fire" value="3"/>
 			<attribute key="skillboost shielding" value="3"/>
+			</attribute>
 	</item>
 	<item id="3436" article="a" name="medusa shield">
 		<attribute key="weaponType" value="shield"/>
@@ -7434,6 +7458,7 @@
 			<attribute key="elemental protection earth" value="3"/>
 			<attribute key="elemental protection fire" value="3"/>
 			<attribute key="skillboost shielding" value="3"/>
+			</attribute>
 	</item>
 	<item id="3437" article="an" name="amazon shield">
 		<attribute key="weaponType" value="shield"/>
@@ -7443,6 +7468,7 @@
 			<attribute key="elemental protection earth" value="3"/>
 			<attribute key="elemental protection fire" value="3"/>
 			<attribute key="skillboost shielding" value="3"/>
+			</attribute>
 	</item>
 	<item id="3438" article="an" name="eagle shield">
 		<attribute key="weaponType" value="shield"/>
@@ -7452,6 +7478,7 @@
 			<attribute key="elemental protection earth" value="3"/>
 			<attribute key="elemental protection fire" value="3"/>
 			<attribute key="skillboost shielding" value="3"/>
+			</attribute>
 	</item>
 	<item id="3439" article="a" name="phoenix shield">
 		<attribute key="description" value="This shield feels warm to the touch"/>
@@ -7462,6 +7489,7 @@
 			<attribute key="elemental protection earth" value="3"/>
 			<attribute key="elemental protection fire" value="3"/>
 			<attribute key="skillboost shielding" value="3"/>
+			</attribute>
 	</item>
 	<item id="3440" article="a" name="scarab shield">
 		<attribute key="weaponType" value="shield"/>
@@ -7471,6 +7499,7 @@
 			<attribute key="elemental protection earth" value="3"/>
 			<attribute key="elemental protection fire" value="3"/>
 			<attribute key="skillboost shielding" value="3"/>
+			</attribute>
 	</item>
 	<item id="3441" article="a" name="bone shield">
 		<attribute key="weaponType" value="shield"/>
@@ -7480,6 +7509,7 @@
 			<attribute key="elemental protection earth" value="3"/>
 			<attribute key="elemental protection fire" value="3"/>
 			<attribute key="skillboost shielding" value="3"/>
+			</attribute>
 	</item>
 	<item id="3442" article="a" name="tempest shield">
 		<attribute key="weaponType" value="shield"/>
@@ -7503,6 +7533,7 @@
 			<attribute key="elemental protection earth" value="3"/>
 			<attribute key="elemental protection fire" value="3"/>
 			<attribute key="skillboost shielding" value="3"/>
+			</attribute>
 	</item>
 	<item id="3444" article="a" name="sentinel shield">
 		<attribute key="weaponType" value="shield"/>
@@ -7512,6 +7543,7 @@
 			<attribute key="elemental protection earth" value="3"/>
 			<attribute key="elemental protection fire" value="3"/>
 			<attribute key="skillboost shielding" value="3"/>
+			</attribute>
 	</item>
 	<item id="3445" article="a" name="salamander shield">
 		<attribute key="weaponType" value="shield"/>
@@ -7521,6 +7553,7 @@
 			<attribute key="elemental protection earth" value="3"/>
 			<attribute key="elemental protection fire" value="3"/>
 			<attribute key="skillboost shielding" value="3"/>
+			</attribute>
 	</item>
 	<item id="3446" article="a" name="bolt">
 		<attribute key="weaponType" value="ammunition"/>
