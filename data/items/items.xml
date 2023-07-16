@@ -12905,6 +12905,7 @@
 			<attribute key="elemental protection earth" value="3"/>
 			<attribute key="elemental protection fire" value="3"/>
 			<attribute key="skillboost shielding" value="3"/>
+			</attribute>
 	</item>
 	<item fromid="6132" toid="6158" article="a" name="tree wall"/>
 	<item fromid="6159" toid="6171" article="a" name="grass roof"/>
