@@ -268,13 +268,7 @@ local weapons = {
 	{
 		-- throwing axe
 		itemId = 35515,
-		type = WEAPON_AXE,
-		level = 150,
-		unproperly = true,
-		vocation = {
-			{"Knight", true},
-			{"Elite Knight"}
-		}
+		type = WEAPON_AXE
 	},
 	{
 		-- jungle flail
@@ -646,13 +640,7 @@ local weapons = {
 	{
 		-- living vine bow
 		itemid = 29417,
-		type = WEAPON_DISTANCE,
-		level = 220,
-		unproperly = true,
-		vocation = {
-			{"Paladin", true},
-			{"Royal Paladin"}
-		}
+		type = WEAPON_DISTANCE
 	},
 	{
 		-- golden axe
@@ -2144,7 +2132,7 @@ local weapons = {
 		type = WEAPON_MISSILE,
 		level = 60,
 		unproperly = true,
-		breakchance = 2
+		breakchance = 1
 	},
 	{
 		-- umbral master crossbow
@@ -3180,13 +3168,7 @@ local weapons = {
 	{
 		-- modified crossbow
 		itemid = 8021,
-		type = WEAPON_DISTANCE,
-		level = 45,
-		unproperly = true,
-		vocation = {
-			{"Paladin", true},
-			{"Royal Paladin"}
-		}
+		type = WEAPON_DISTANCE
 	},
 	{
 		-- jagged sword
@@ -4202,9 +4184,7 @@ local weapons = {
 	{
 		-- diamond sceptre
 		itemid = 7387,
-		type = WEAPON_CLUB,
-		level = 25,
-		unproperly = true
+		type = WEAPON_CLUB
 	},
 	{
 		-- mercenary sword
@@ -4278,9 +4258,7 @@ local weapons = {
 		-- royal spear
 		itemid = 7378,
 		type = WEAPON_MISSILE,
-		level = 25,
-		unproperly = true,
-		breakchance = 3
+		breakchance = 1
 	},
 	{
 		-- assassin star
@@ -4294,8 +4272,6 @@ local weapons = {
 		-- enchanted spear
 		itemid = 7367,
 		type = WEAPON_MISSILE,
-		level = 42,
-		unproperly = true,
 		breakchance = 1
 	},
 	{
@@ -4377,9 +4353,7 @@ local weapons = {
 		-- hunting spear
 		itemid = 3347,
 		type = WEAPON_MISSILE,
-		level = 20,
-		unproperly = true,
-		breakchance = 6
+		breakchance = 1
 	},
 	{
 		-- ripper lance
@@ -4611,9 +4585,7 @@ local weapons = {
 	{
 		-- knight axe
 		itemid = 3318,
-		type = WEAPON_AXE,
-		level = 25,
-		unproperly = true
+		type = WEAPON_AXE
 	},
 	{
 		-- barbarian axe
@@ -4878,7 +4850,7 @@ local weapons = {
 		-- spear
 		itemid = 3277,
 		type = WEAPON_MISSILE,
-		breakchance = 3
+		breakchance = 1
 	},
 	{
 		-- hatchet

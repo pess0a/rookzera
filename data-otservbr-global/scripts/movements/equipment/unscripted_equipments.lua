@@ -9773,12 +9773,7 @@ local items = {
 		-- depth calcei
 		itemid = 13997,
 		type = "equip",
-		slot = "feet",
-		level = 150,
-		vocation = {
-			{"Knight", true},
-			{"Elite Knight"}
-		}
+		slot = "feet"
 	},
 	{
 		-- depth calcei
@@ -15627,11 +15622,7 @@ local items = {
 		-- wood cape
 		itemid = 3575,
 		type = "equip",
-		slot = "head",
-		vocation = {
-			{"Paladin", true},
-			{"Royal Paladin"}
-		}
+		slot = "head"
 	},
 	{
 		-- wood cape
@@ -15679,11 +15670,7 @@ local items = {
 		-- ranger's cloak
 		itemid = 3571,
 		type = "equip",
-		slot = "armor",
-		vocation = {
-			{"Paladin", true},
-			{"Royal Paladin"}
-		}
+		slot = "armor"
 	},
 	{
 		-- ranger's cloak

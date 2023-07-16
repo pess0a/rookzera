@@ -26,10 +26,10 @@ npcConfig.flags = {
 npcConfig.voices = {
 	interval = 15000,
 	chance = 50,
-	{ text = 'Only quality steel and wood used for my weapons!' },
-	{ text = 'Buy your weapons here!' },
-	{ text = 'Selling and buying all sorts of weapons, come and have a look!' },
-	{ text = 'Give those monsters a good whipping with my weapons!' }
+	{ text = 'Apenas ferro e madeira de qualidade usados para minhas armas!' },
+	{ text = 'Compre suas armas aqui!' },
+	{ text = 'Vendendo e comprando todos os tipos de armas, venha dar uma olhada!' },
+	{ text = 'Pode dar uma bela surra naqueles monstros com minhas armas!' }
 }
 
 local keywordHandler = KeywordHandler:new()
@@ -62,94 +62,111 @@ end
 
 -- Basic keywords
 keywordHandler:addKeyword({'hint'}, StdModule.rookgaardHints, {npcHandler = npcHandler})
-keywordHandler:addKeyword({'help'}, StdModule.say, {npcHandler = npcHandler, text = 'Well, how can I help you? Do you need some general {hints}? Or, if you\'re interested in a {trade}, just ask.'})
-keywordHandler:addKeyword({'information'}, StdModule.say, {npcHandler = npcHandler, text = 'What kind of information do you need? I could tell you about different topics such as {equipment}, {monsters} or {Rookgaard} in general.'})
-keywordHandler:addKeyword({'torch'}, StdModule.say, {npcHandler = npcHandler, text = '{Al Dee} sells torches.'})
-keywordHandler:addKeyword({'dungeon'}, StdModule.say, {npcHandler = npcHandler, text = 'Be careful down there! Make sure you bought enough {torches} and a {rope} or you might get lost.'})
-keywordHandler:addKeyword({'king'}, StdModule.say, {npcHandler = npcHandler, text = 'The king encouraged salesmen to travel here, but only I dared to take the risk, and a risk it was!'})
-keywordHandler:addKeyword({'time'}, StdModule.say, {npcHandler = npcHandler, text = 'It\'s about |TIME|. Yes, |TIME|. I\'m so sorry, I have no watches for sale.'})
-keywordHandler:addKeyword({'name'}, StdModule.say, {npcHandler = npcHandler, text = 'My name is Obi, just Obi, the honest merchant. If you like to {trade}, just ask.'})
-keywordHandler:addKeyword({'job'}, StdModule.say, {npcHandler = npcHandler, text = 'I\'m a merchant and the local {weapon} smith. If you like to see my quality wares or sell weapons to me, ask me for a {trade}.'})
-keywordHandler:addKeyword({'equipment'}, StdModule.say, {npcHandler = npcHandler, text = 'As an adventurer you should always have at least a {backpack}, a {rope}, a {shovel}, a {weapon}, an {armor} and a {shield}.'})
-keywordHandler:addKeyword({'bank'}, StdModule.say, {npcHandler = npcHandler, text = 'If I were you, I\'d invest my money in quality steel rather than putting it in a so-called safe bank account!'})
-keywordHandler:addKeyword({'mainland'}, StdModule.say, {npcHandler = npcHandler, text = 'Well, the mainland also consists of several continents. You can go there once you are level 8 and have talked to the {oracle}.'})
-keywordHandler:addKeyword({'rookgaard'}, StdModule.say, {npcHandler = npcHandler, text = 'Ah, Rookgaard. Home sweet home, that\'s what it became for me, but I will always miss {Thais} and {Sam}.'})
-keywordHandler:addKeyword({'thais'}, StdModule.say, {npcHandler = npcHandler, text = 'Oh, Thais, I\'ll be back. One day, I\'ll be back.'})
-keywordHandler:addKeyword({'sam'}, StdModule.say, {npcHandler = npcHandler, text = 'My good old cousin Sam. Oh, how I miss him.'})
-keywordHandler:addKeyword({'academy'}, StdModule.say, {npcHandler = npcHandler, text = 'I think good practice is better than reading a boring book. Of course, you will need proper {equipment} to be able to get practice!'})
-keywordHandler:addKeyword({'food'}, StdModule.say, {npcHandler = npcHandler, text = ' told them to let me sell food, but no! Sorry, you have to ask {Willie} or {Billy} on the farms west of here.'})
-keywordHandler:addKeyword({'monster'}, StdModule.say, {npcHandler = npcHandler, text = 'Good monsters to start with are rats. They live in the {sewers} under the village of {Rookgaard}.'})
-keywordHandler:addKeyword({'sewer'}, StdModule.say, {npcHandler = npcHandler, text = 'There are many sewer entrances throughout Rookgaard. One is right outside this shop and to the left. For more details about monsters and dungeons, best talk to one of the {guards}.'})
-keywordHandler:addKeyword({'guard'}, StdModule.say, {npcHandler = npcHandler, text = 'The bridge guard {Dallheim} is north of here, just follow the street, you can\'t miss it.'})
-keywordHandler:addKeyword({'merchant'}, StdModule.say, {npcHandler = npcHandler, text = 'Sadly, not many merchants are as honest as I am.'})
-keywordHandler:addKeyword({'potion'}, StdModule.say, {npcHandler = npcHandler, text = 'I wish I could help you with that, but no, I was told to stick to weapons. Go see {Lily}.'})
-keywordHandler:addKeyword({'blueberr'}, StdModule.say, {npcHandler = npcHandler, text = 'There are many blueberry bushes in and around this village. Nature\'s for free.'})
-keywordHandler:addKeyword({'how', 'are', 'you'}, StdModule.say, {npcHandler = npcHandler, text = 'I\'m fine. It\'s a little hot near the crucible, but I enjoy the sound of forging {weapons}.'})
-keywordHandler:addKeyword({'sell'}, StdModule.say, {npcHandler = npcHandler, text = 'Just ask me for a {trade} to see which things I buy from you.'})
+keywordHandler:addKeyword({'help'}, StdModule.say, {npcHandler = npcHandler, text = 'Bem, como posso ajuda-lo? Voce precisa de algumas {hints} gerais? Ou, se voce estiver interessado em um {trade}, basta perguntar.'})
+keywordHandler:addKeyword({'information'}, StdModule.say, {npcHandler = npcHandler, text = 'Que tipo de informacao voce precisa? Eu poderia falar sobre diferentes topicos como {equipment}, {monsters} ou {Rookgaard} em geral.'})
+keywordHandler:addKeyword({'torch'}, StdModule.say, {npcHandler = npcHandler, text = '{Al Dee} vende tochas.'})
+keywordHandler:addKeyword({'dungeon'}, StdModule.say, {npcHandler = npcHandler, text = 'Cuidado la embaixo! Certifique-se de comprar {torches} suficientes e uma {rope} ou voce pode se perder.'})
+keywordHandler:addKeyword({'king'}, StdModule.say, {npcHandler = npcHandler, text = 'O rei encorajou os vendedores a viajarem para ca, mas eu ousei correr o risco, e foi um risco!'})
+keywordHandler:addKeyword({'time'}, StdModule.say, {npcHandler = npcHandler, text = 'Sim, |TIME|. Sinto muito, mas nao tenho relogios a venda.'})
+keywordHandler:addKeyword({'name'}, StdModule.say, {npcHandler = npcHandler, text = 'Eu sou Obi, apenas Obi, o comerciante honesto. Se voce gosta de {trade}, basta perguntar.'})
+keywordHandler:addKeyword({'job'}, StdModule.say, {npcHandler = npcHandler, text = 'Eu sou um comerciante e o ferreiro {weapon} local. Se voce gosta de ver meus produtos de qualidade ou vender armas para mim, peca-me um {trade}.'})
+keywordHandler:addKeyword({'equipment'}, StdModule.say, {npcHandler = npcHandler, text = 'Como aventureiro, voce sempre deve ter pelo menos uma {backpack}, uma {rope}, uma {shovel}, uma {weapon}, uma {armor} e um {shield}.'})
+keywordHandler:addKeyword({'bank'}, StdModule.say, {npcHandler = npcHandler, text = 'Se eu fosse voce, investiria meu dinheiro em aco e ferro de qualidade em vez de coloca-lo em uma conta bancaria chamada de cofre!'})
+keywordHandler:addKeyword({'mainland'}, StdModule.say, {npcHandler = npcHandler, text = 'Bem, o continente tambem consiste em varios continentes. Mas nao temos contato nenhum com eles.'})
+keywordHandler:addKeyword({'rookgaard'}, StdModule.say, {npcHandler = npcHandler, text = 'Ah, Rookgaard. Lar doce lar, foi isso que se tornou para mim, mas sempre sentirei falta de {Thais} e {Sam}'})
+keywordHandler:addKeyword({'thais'}, StdModule.say, {npcHandler = npcHandler, text = 'Oh, Thais, eu voltarei. Um dia, eu estarei de volta.'})
+keywordHandler:addKeyword({'sam'}, StdModule.say, {npcHandler = npcHandler, text = 'Meu bom e velho primo Sam. Oh, como eu sinto falta dele.'})
+keywordHandler:addKeyword({'academy'}, StdModule.say, {npcHandler = npcHandler, text = 'Acho que uma boa pratica e melhor do que ler um livro chato. Claro, voce precisara de {equipment} adequado para poder praticar!'})
+keywordHandler:addKeyword({'food'}, StdModule.say, {npcHandler = npcHandler, text = 'Disse-lhes para me deixarem vender comida, mas nao! Desculpe, voce tem que perguntar a {Willie} ou {Billy} nas fazendas a oeste daqui.'})
+keywordHandler:addKeyword({'monster'}, StdModule.say, {npcHandler = npcHandler, text = 'Bons monstros para comecar sao ratos. Eles vivem nos {sewers} sob a vila de {Rookgaard}.'})
+keywordHandler:addKeyword({'sewer'}, StdModule.say, {npcHandler = npcHandler, text = 'Existem muitas entradas de esgoto em Rookgaard. Um fica do lado de fora desta loja e a esquerda. Para mais detalhes sobre monstros e masmorras, fale com um dos {guards}.'})
+keywordHandler:addKeyword({'guard'}, StdModule.say, {npcHandler = npcHandler, text = 'O guarda da ponte {Dallheim} fica ao norte daqui, apenas siga a rua, voce nao pode errar.'})
+keywordHandler:addKeyword({'merchant'}, StdModule.say, {npcHandler = npcHandler, text = 'Infelizmente, poucos comerciantes sao tao honestos quanto eu.'})
+keywordHandler:addKeyword({'potion'}, StdModule.say, {npcHandler = npcHandler, text = 'Eu gostaria de poder ajuda-lo com isso, mas nao, me disseram para ficar com as armas. Va ver {Lily}.'})
+keywordHandler:addKeyword({'blueberr'}, StdModule.say, {npcHandler = npcHandler, text = 'Ha muitos arbustos de mirtilo dentro e ao redor desta vila. A natureza sem foi de graca.'})
+keywordHandler:addKeyword({'how', 'are', 'you'}, StdModule.say, {npcHandler = npcHandler, text = 'Estou bem. Esta um pouco quente perto do cadinho, mas eu gosto do som de forjar {weapons}.'})
+keywordHandler:addKeyword({'sell'}, StdModule.say, {npcHandler = npcHandler, text = 'Basta me pedir um {trade} para ver quais coisas eu compro de voce.'})
 
-keywordHandler:addKeyword({'armor'}, StdModule.say, {npcHandler = npcHandler, text = 'Oh, just upstairs. My granddaughter {Dixi} is in charge of selling armors and shields.'})
+keywordHandler:addKeyword({'armor'}, StdModule.say, {npcHandler = npcHandler, text = 'Oh, aqui em cima. Minha neta {Dixi} esta encarregada de vender armaduras e escudos.'})
 keywordHandler:addAliasKeyword({'shield'})
 keywordHandler:addAliasKeyword({'helmet'})
 
-keywordHandler:addKeyword({'weapon'}, StdModule.say, {npcHandler = npcHandler, text = 'Yes, I\'m selling weapons. Just ask me for a {trade} to see my offers and the things I buy from you.'})
+keywordHandler:addKeyword({'weapon'}, StdModule.say, {npcHandler = npcHandler, text = 'Sim, estou vendendo armas. Basta me pedir um {trade} para ver minhas ofertas e as coisas que compro.'})
 
-keywordHandler:addKeyword({'gold'}, StdModule.say, {npcHandler = npcHandler, text = 'Well, no gold, no deal. Earn gold by fighting {monsters} and picking up the things they carry. Sell it to {merchants} to make profit!'})
+keywordHandler:addKeyword({'gold'}, StdModule.say, {npcHandler = npcHandler, text = 'Bem, sem ouro, sem acordo. Ganhe ouro lutando contra {monsters} e pegando as coisas que eles carregam. Venda para {merchants} para obter lucro!'})
 keywordHandler:addAliasKeyword({'money'})
 
-keywordHandler:addKeyword({'rope'}, StdModule.say, {npcHandler = npcHandler, text = 'I wish I could help you with that, but no, I was told to stick to weapons. Go see {Al Dee} or {Lee\'Delle}.'})
+keywordHandler:addKeyword({'rope'}, StdModule.say, {npcHandler = npcHandler, text = 'Eu gostaria de poder te ajudar, mas eu apenas vendo armas. Vai ver {Al Dee} ou {Lee\'Delle}.'})
 keywordHandler:addAliasKeyword({'shovel'})
 keywordHandler:addAliasKeyword({'backpack'})
 keywordHandler:addAliasKeyword({'fishing'})
 
-keywordHandler:addKeyword({'buy'}, StdModule.say, {npcHandler = npcHandler, text = 'I sell {weapons} of all kinds. Just ask me for a {trade} if you like to see my offers.'})
+keywordHandler:addKeyword({'buy'}, StdModule.say, {npcHandler = npcHandler, text = 'Eu vendo {weapons} de todos os tipos. Apenas me fale {trade} se quiser ver minhas ofertas.'})
 keywordHandler:addAliasKeyword({'stuff'})
 keywordHandler:addAliasKeyword({'wares'})
 keywordHandler:addAliasKeyword({'offer'})
 
 -- Names
-keywordHandler:addKeyword({'norma'}, StdModule.say, {npcHandler = npcHandler, text = 'I don\'t know how anyone could give up the flourishing business she led. She should have listened to me and find someone who continues that business for her.'})
-keywordHandler:addKeyword({'loui'}, StdModule.say, {npcHandler = npcHandler, text = 'I told him there was no danger, but he wouldn\'t listen to me, no one listens to me.'})
-keywordHandler:addKeyword({'santiago'}, StdModule.say, {npcHandler = npcHandler, text = 'I suggested him opening a tourist guide company with me, Obi\'s and Santiago\'s, but he didn\'t approve. I really don\'t understand why.'})
-keywordHandler:addKeyword({'zirella'}, StdModule.say, {npcHandler = npcHandler, text = 'An old woman shouldn\'t be treated like that, no way, that\'s bad.'})
-keywordHandler:addKeyword({'al', 'dee'}, StdModule.say, {npcHandler = npcHandler, text = 'Oh, this guy is so greedy, so greedy. Ripping off poor adventurers like you!'})
-keywordHandler:addKeyword({'amber'}, StdModule.say, {npcHandler = npcHandler, text = 'She is beautiful, very, very beautiful. I hope I can impress her somehow.'})
-keywordHandler:addKeyword({'billy'}, StdModule.say, {npcHandler = npcHandler, text = 'He\'s just like his cousin {Willie}.'})
-keywordHandler:addKeyword({'willie'}, StdModule.say, {npcHandler = npcHandler, text = 'This guy doesn\'t understand that he should entrust me with the food business, too. He really should do. Then he had time for his farm.'})
-keywordHandler:addKeyword({'cipfried'}, StdModule.say, {npcHandler = npcHandler, text = 'He shouldn\'t heal people for free, no he shouldn\'t. That would be a great source of income for the village that could be invested in enhancing the smithy.'})
-keywordHandler:addKeyword({'dixi'}, StdModule.say, {npcHandler = npcHandler, text = 'Oh, what an endearing little girl, and she\'s working so hard to help me, even without receiving payment. Such a sweet little girl!'})
-keywordHandler:addKeyword({'hyacinth'}, StdModule.say, {npcHandler = npcHandler, text = 'I don\'t like him, actually I dislike him deeply. He is so greedy that he doesn\'t want to share his profit he gains from health potions.'})
-keywordHandler:addKeyword({'lee\'delle'}, StdModule.say, {npcHandler = npcHandler, text = 'She ruins the market with her offers! This is bad for us honest merchants, really bad.'})
-keywordHandler:addKeyword({'lily'}, StdModule.say, {npcHandler = npcHandler, text = 'I knew it! I knew she would try to get the monopoly on potions in this village! But no one has listened to me!'})
-keywordHandler:addKeyword({'oracle'}, StdModule.say, {npcHandler = npcHandler, text = 'The oracle, ah, such a weird being! It will lead you off this island once you are level 8, yes it will, mark my words.'})
-keywordHandler:addKeyword({'paulie'}, StdModule.say, {npcHandler = npcHandler, text = 'I told everyone he will cause trouble. He talks people into giving him their money and putting it on the {bank}! They rather should leave it here with us honest merchants!'})
-keywordHandler:addKeyword({'seymour'}, StdModule.say, {npcHandler = npcHandler, text = 'He is the head of the local academy. I encouraged him to sponsor you, but no one listens to Obi, no one listens to me, as usual.'})
-keywordHandler:addKeyword({'tom'}, StdModule.say, {npcHandler = npcHandler, text = 'Well, he just buys what no one else wants. Stuff that\'s long dead. I can live with that, yes, I can live with that.'})
-keywordHandler:addKeyword({'dallheim'}, StdModule.say, {npcHandler = npcHandler, text = 'What a hero, what a hero.'})
+keywordHandler:addKeyword({'norma'}, StdModule.say, {npcHandler = npcHandler, text = 'Nao sei como alguem poderia desistir do prospero negocio que ela liderava. Ela deveria ter me escutado e encontrado alguem que continue esse negocio para ela.'})
+keywordHandler:addKeyword({'loui'}, StdModule.say, {npcHandler = npcHandler, text = 'Eu disse a ele que nao havia perigo, mas ele nao quis me ouvir, ninguem me ouve.'})
+keywordHandler:addKeyword({'santiago'}, StdModule.say, {npcHandler = npcHandler, text = 'Sugeri a ele abrir uma empresa de guias turisticos comigo, Obi\'s and Santiago\'s, mas ele nao aprovou. Eu realmente nao entendo o porque.'})
+keywordHandler:addKeyword({'zirella'}, StdModule.say, {npcHandler = npcHandler, text = 'Uma velha nao deveria ser tratada assim, de jeito nenhum, ruim isso...'})
+keywordHandler:addKeyword({'al', 'dee'}, StdModule.say, {npcHandler = npcHandler, text = 'Oh, esse cara esta muito ganancioso, muito ganancioso. Roubando pobres aventureiros como voce!'})
+keywordHandler:addKeyword({'amber'}, StdModule.say, {npcHandler = npcHandler, text = 'Ow, linda, muito, muito linda. Espero poder impressiona-la de alguma forma.'})
+keywordHandler:addKeyword({'billy'}, StdModule.say, {npcHandler = npcHandler, text = 'Ele parece como seu primo {Willie}.'})
+keywordHandler:addKeyword({'willie'}, StdModule.say, {npcHandler = npcHandler, text = 'Esse cara nao entende que deveria me confiar o negocio de alimentos tambem. Ele realmente deveria fazer. Entao ele teve tempo para sua fazenda.'})
+keywordHandler:addKeyword({'cipfried'}, StdModule.say, {npcHandler = npcHandler, text = 'Ele nao deveria curar as pessoas de sem cobrar nada, jamais, ele nao deveria. Isso seria uma grande fonte de renda para a vila que poderia ser investida no aprimoramento da ferraria.'})
+keywordHandler:addKeyword({'dixi'}, StdModule.say, {npcHandler = npcHandler, text = 'Oh, que garotinha cativante, e ela esta trabalhando tanto para me ajudar, mesmo sem receber pagamento. Uma menina tao doce!'})
+keywordHandler:addKeyword({'hyacinth'}, StdModule.say, {npcHandler = npcHandler, text = 'Eu nao gosto dele, na verdade eu nao gosto dele profundamente. Ele e muito ganancioso que nao quer dividir o lucro que obtem com as pocoes de saude.'})
+keywordHandler:addKeyword({'lee\'delle'}, StdModule.say, {npcHandler = npcHandler, text = 'Ela arruina o mercado com suas ofertas! Isso e ruim para os comerciantes honestos, muito ruim.'})
+keywordHandler:addKeyword({'lily'}, StdModule.say, {npcHandler = npcHandler, text = 'Eu sabia! Eu sabia que ela tentaria obter o monopolio das pocoes nesta vila! Mas ninguem me ouviu!'})
+keywordHandler:addKeyword({'oracle'}, StdModule.say, {npcHandler = npcHandler, text = 'O oraculo, ah, que ser estranho! Isso o levara para fora desta ilha quando voce estiver no nivel 8, sim, vai, marque minhas palavras.'})
+keywordHandler:addKeyword({'paulie'}, StdModule.say, {npcHandler = npcHandler, text = 'Eu disse a todos que ele vai causar problemas. Ele convence as pessoas a darem dinheiro a ele e coloca-lo no {bank}! Eles deveriam deixa-lo aqui conosco, comerciantes honestos!'})
+keywordHandler:addKeyword({'seymour'}, StdModule.say, {npcHandler = npcHandler, text = 'Ele e o chefe da academia local. Eu o encorajei a patrocinar voce, mas ninguem ouve Obi, ninguem me ouve, como sempre.'})
+keywordHandler:addKeyword({'tom'}, StdModule.say, {npcHandler = npcHandler, text = 'Bem, ele so compra o que ninguem mais quer. Coisas que estao mortas ha muito tempo. Eu posso viver com isso, sim, eu posso viver com isso.'})
+keywordHandler:addKeyword({'dallheim'}, StdModule.say, {npcHandler = npcHandler, text = 'Que heroi, que heroi.'})
 keywordHandler:addAliasKeyword({'zerbrus'})
 
-npcHandler:setMessage(MESSAGE_WALKAWAY, 'Um yeah, good day.')
-npcHandler:setMessage(MESSAGE_FAREWELL, 'Farewell, I hope you were satisfied with our service.')
-npcHandler:setMessage(MESSAGE_SENDTRADE, 'Of course, just browse through my wares.')
-npcHandler:setMessage(MESSAGE_GREET, 'Hello, hello, |PLAYERNAME|! Please come in, look, and buy! If you like to see my offers, ask me for a {trade}!')
+npcHandler:setMessage(MESSAGE_WALKAWAY, 'Hum sim, bom dia.')
+npcHandler:setMessage(MESSAGE_FAREWELL, 'Adeus, espero que tenha ficado satisfeito com nosso trabalho.')
+npcHandler:setMessage(MESSAGE_SENDTRADE, 'Claro, apenas navegue pelos meus produtos.')
+npcHandler:setMessage(MESSAGE_GREET, 'Ola, Ola, |PLAYERNAME|! Entre, olhe e compre! Se voce gosta de ver minhas ofertas, pode pedir uma')
 
 npcHandler:addModule(FocusModule:new(), npcConfig.name, true, true, true)
 
 npcConfig.shop = {
-	{ itemName = "axe", clientId = 3274, buy = 20, sell = 7 },
-	{ itemName = "bone club", clientId = 3337, sell = 5 },
-	{ itemName = "dagger", clientId = 3267, buy = 5, sell = 2 },
-	{ itemName = "hand axe", clientId = 3268, buy = 8, sell = 4 },
-	{ itemName = "hatchet", clientId = 3276, sell = 200 },
-	{ itemName = "katana", clientId = 3300, sell = 300 },
-	{ itemName = "mace", clientId = 3286, sell = 250 },
-	{ itemName = "machete", clientId = 3308, sell = 30 },
-	{ itemName = "rapier", clientId = 3272, buy = 15, sell = 5 },
-	{ itemName = "sabre", clientId = 3273, buy = 25, sell = 12 },
-	{ itemName = "scythe", clientId = 3453, buy = 12, sell = 3 },
-	{ itemName = "short sword", clientId = 3294, buy = 30, sell = 10 },
-	{ itemName = "sickle", clientId = 3293, buy = 8, sell = 2 },
-	{ itemName = "spear", clientId = 3277, buy = 10, sell = 3 },
-	{ itemName = "sword", clientId = 3264, sell = 25 }
+	{ itemName = "small stone", clientId = 1781, buy = 5 },
+	{ itemName = "spear", clientId = 3277, buy = 10 },
+	{ itemName = "arrow", clientId = 3447, buy = 2 },
+	{ itemName = "bolt", clientId = 3446, buy = 2 },
+    { itemName = "machete", clientId = 3308, buy = 100, sell = 3 },
+	{ itemName = "hand axe", clientId = 3268, buy = 100, sell = 4 },
+	{ itemName = "studded club", clientId = 3336, buy = 100, sell = 4 },
+    { itemName = "rapier", clientId = 3272, sell = 25 },
+	{ itemName = "sabre", clientId = 3273, sell = 25 },
+	{ itemName = "axe", clientId = 3274, sell = 25 },
+	{ itemName = "bone club", clientId = 3337, sell = 25 },
+	{ itemName = "sword", clientId = 3264, sell = 25 },
+	{ itemName = "carlin sword", clientId = 3283, sell = 25 },
+	{ itemName = "hatchet", clientId = 3276, sell = 25 },
+	{ itemName = "light mace", clientId = 3325, sell = 25 },
+	{ itemName = "katana", clientId = 3300, sell = 25 },
+	{ itemName = "daramian axe", clientId = 3329, sell = 25 },
+	{ itemName = "mace", clientId = 3286, sell = 25 },
+	{ itemName = "long sword", clientId = 3285, sell = 25 },
+	{ itemName = "knight axe", clientId = 3318, sell = 25 },
+	{ itemName = "iron hammer", clientId = 3310, sell = 25 },
+	{ itemName = "poison dagger", clientId = 3299, sell = 25 },
+	{ itemName = "scythe of the reaper", clientId = 9384, sell = 25 },
+	{ itemName = "swampling club", clientId = 17824, sell = 25 },
+	{ itemName = "scimitar", clientId = 3307, sell = 25 },
+	{ itemName = "throwing axe", clientId = 35515, sell = 25 },
+	{ itemName = "diamond sceptre", clientId = 7387, sell = 25 },
+	{ itemName = "bow", clientId = 3350, sell = 25 },
+	{ itemName = "elvish bow", clientId = 7438, sell = 25 },
+	{ itemName = "living vine bow", clientId = 29417, sell = 25 },
+	{ itemName = "crossbow", clientId = 3349, sell = 25 },
+	{ itemName = "modified crossbow", clientId = 7438, sell = 25 }
 }
 -- On buy npc shop message
 npcType.onBuyItem = function(npc, player, itemId, subType, amount, ignore, inBackpacks, totalCost)
