@@ -15598,6 +15598,7 @@
 			<attribute key="elemental protection earth" value="3"/>
 			<attribute key="elemental protection fire" value="3"/>
 			<attribute key="skillboost shielding" value="3"/>
+			</attribute>
 	</item>
 	<item id="7461" article="a" name="krimhorn helmet">
 		<attribute key="armor" value="6"/>
@@ -24645,6 +24646,7 @@
 			<attribute key="elemental protection earth" value="3"/>
 			<attribute key="elemental protection fire" value="3"/>
 			<attribute key="skillboost shielding" value="3"/>
+				</attribute>
 	</item>
 	<item id="14043" article="a" name="guardian axe">
 		<attribute key="weaponType" value="axe"/>
@@ -27371,6 +27373,7 @@
 			<attribute key="elemental protection earth" value="3"/>
 			<attribute key="elemental protection fire" value="3"/>
 			<attribute key="skillboost shielding" value="3"/>
+					</attribute>
 	</item>
 	<item id="17811" name="RESERVED SPRITE"/>
 	<item id="17812" article="a" name="ratana">
@@ -30509,6 +30512,7 @@
 			<attribute key="elemental protection earth" value="3"/>
 			<attribute key="elemental protection fire" value="3"/>
 			<attribute key="skillboost shielding" value="3"/>
+					</attribute>
 	</item>
 	<item id="19364" name="RESERVED SPRITE"/>
 	<item id="19365" article="a" name="trapped lightning">
@@ -30549,6 +30553,7 @@
 			<attribute key="elemental protection earth" value="3"/>
 			<attribute key="elemental protection fire" value="3"/>
 			<attribute key="skillboost shielding" value="3"/>
+					</attribute>
 	</item>
 	<item id="19374" name="vampire silk slippers">
 		<attribute key="weight" value="1150"/>
@@ -32398,6 +32403,7 @@
 			<attribute key="elemental protection earth" value="3"/>
 			<attribute key="elemental protection fire" value="3"/>
 			<attribute key="skillboost shielding" value="3"/>
+					</attribute>
 	</item>
 	<item id="21176" article="an" name="execowtioner axe">
 		<attribute key="weaponType" value="axe"/>
