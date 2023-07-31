@@ -17,7 +17,7 @@ monster.raceId = 26
 monster.Bestiary = {
 	class = "Vermin",
 	race = BESTY_RACE_VERMIN,
-	toKill = 500,
+	toKill = 1000,
 	FirstUnlock = 25,
 	SecondUnlock = 250,
 	CharmsPoints = 15,
@@ -80,6 +80,8 @@ monster.loot = {
 	{name = "gold coin", chance = 71760, maxCount = 17},
 	{id = 3264, chance = 3000}, -- sword
 	{name = "mace", chance = 4500},
+	{name = "light mace", chance = 100},
+	{name = "legion helmet", chance = 1000},
 	{name = "meat", chance = 20000},
 	{name = "ham", chance = 20120},
 	{name = "worm", chance = 3000, maxCount = 3},
@@ -91,8 +93,8 @@ monster.attacks = {
 }
 
 monster.defenses = {
-	defense = 10,
-	armor = 10
+	defense = 13,
+	armor = 13
 }
 
 monster.elements = {

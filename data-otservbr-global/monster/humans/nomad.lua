@@ -17,11 +17,11 @@ monster.raceId = 310
 monster.Bestiary = {
 	class = "Human",
 	race = BESTY_RACE_HUMAN,
-	toKill = 500,
+	toKill = 1000,
 	FirstUnlock = 25,
 	SecondUnlock = 250,
 	CharmsPoints = 15,
-	Stars = 2,
+	Stars = 3,
 	Occurrence = 1,
 	Locations = "Ankrahmun Pharaoh Tombs, Deeper Drefia, Kha'zeel Mountains, Northern Darama Desert, \z
 		Southern Darama Desert, Yalahar Foreigner Quarter, Yalahar Trade Quarter."
@@ -81,13 +81,14 @@ monster.loot = {
 	{name = "gold coin", chance = 56250, maxCount = 40},
 	{name = "axe", chance = 2730},
 	{name = "mace", chance = 2120},
-	{name = "iron helmet", chance = 650},
-	{name = "brass armor", chance = 2350},
-	{name = "steel shield", chance = 920},
+	{name = "iron helmet", chance = 120},
+	{name = "brass armor", chance = 10},
+	{name = "steel shield", chance = 10},
+	{name = "blue legs", chance = 100},
 	{name = "nomad parchment", chance = 200},
 	{name = "potato", chance = 4840, maxCount = 3},
-	{name = "dirty turban", chance = 2160},
-	{name = "rope belt", chance = 6420}
+	{name = "dirty turban", chance = 100},
+	{name = "rope belt", chance = 100}
 }
 
 monster.attacks = {

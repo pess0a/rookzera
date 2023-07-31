@@ -21,7 +21,7 @@ monster.Bestiary = {
 	FirstUnlock = 25,
 	SecondUnlock = 250,
 	CharmsPoints = 15,
-	Stars = 2,
+	Stars = 3,
 	Occurrence = 0,
 	Locations = "Drefia, Darama's Dark Pyramid, Draconia, Mount Sternum Undead Cave, Green Claw Swamp, \z
 		Venore Amazon Camp underground, Helheim, Upper Spike, all Tombs, Dark Cathedral, Lion's Rock."
@@ -88,11 +88,11 @@ monster.loot = {
 	{id = 3046, chance = 500}, -- magic light wand
 	{name = "silver amulet", chance = 100},
 	{name = "poison dagger", chance = 150},
-	{name = "black shield", chance = 100},
+	{name = "black shield", chance = 500},
 	{name = "worm", chance = 19000, maxCount = 3},
 	{name = "yellow piece of cloth", chance = 100},
 	{name = "gauze bandage", chance = 100},
-	{name = "mini mummy", chance = 10},
+	{name = "mini mummy", chance = 100},
 	{name = "flask of embalming fluid", chance = 11690}
 }
 

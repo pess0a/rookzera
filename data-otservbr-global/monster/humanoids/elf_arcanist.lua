@@ -21,7 +21,7 @@ monster.Bestiary = {
 	FirstUnlock = 25,
 	SecondUnlock = 500,
 	CharmsPoints = 15,
-	Stars = 2,
+	Stars = 3,
 	Occurrence = 0,
 	Locations = "Yalahar Foreigner Quarter, Demona, Shadowthorn, northwest of Ab'Dendriel, Maze of Lost Souls, \z
 		Cyclopolis, Elvenbane, near Mount Sternum."
@@ -84,6 +84,8 @@ monster.loot = {
 	{name = "gold coin", chance = 37000, maxCount = 47},
 	{name = "yellow gem", chance = 50},
 	{name = "life crystal", chance = 970},
+	{name = "elven mail", chance = 200},
+	{name = "elven legs", chance = 200},
 	{name = "wand of cosmic energy", chance = 1},
 	{name = "elven amulet", chance = 1999},
 	{name = "blank rune", chance = 18000},
@@ -96,7 +98,7 @@ monster.loot = {
 	{name = "grave flower", chance = 880},
 	{name = "sling herb", chance = 5000},
 	{name = "holy orchid", chance = 2100},
-	{name = "strong mana potion", chance = 3000},
+	{name = "strong mana potion", chance = 100},
 	{name = "health potion", chance = 4000},
 	{name = "elvish talisman", chance = 10000},
 	{name = "elven astral observer", chance = 7710}
@@ -125,7 +127,7 @@ monster.elements = {
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
 	{type = COMBAT_ICEDAMAGE, percent = 0},
 	{type = COMBAT_HOLYDAMAGE , percent = -10},
-	{type = COMBAT_DEATHDAMAGE , percent = 20}
+	{type = COMBAT_DEATHDAMAGE , percent = 30}
 }
 
 monster.immunities = {

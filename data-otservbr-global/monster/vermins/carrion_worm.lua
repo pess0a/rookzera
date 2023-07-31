@@ -21,15 +21,15 @@ monster.Bestiary = {
 	FirstUnlock = 25,
 	SecondUnlock = 250,
 	CharmsPoints = 15,
-	Stars = 2,
+	Stars = 3,
 	Occurrence = 0,
 	Locations = "Edron, Cormaya, Drillworm Caves, Venore Swamps, Liberty Bay, Vandura, \z
 		Hellgate, Fibula Dungeon, Stonehome, Kazordoon, Darashia Rotworm Caves, Port Hope, \z
 		Ancient Temple, Fenrock, Arena and Zoo Quarter."
 	}
 
-monster.health = 145
-monster.maxHealth = 145
+monster.health = 180
+monster.maxHealth = 180
 monster.race = "blood"
 monster.corpse = 6069
 monster.speed = 65
@@ -78,17 +78,19 @@ monster.loot = {
 	{name = "gold coin", chance = 50000, maxCount = 45},
 	{name = "meat", chance = 9460, maxCount = 2},
 	{name = "worm", chance = 2100, maxCount = 2},
-	{name = "carrion worm fang", chance = 10000},
+	{name = "light mace", chance = 150},
+	{name = "legion helmet", chance = 150},
+	{name = "carrion worm fang", chance = 100},
 	{id = 12600, chance = 210} -- coal
 }
 
 monster.attacks = {
-	{name ="melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = -45}
+	{name ="melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = -50}
 }
 
 monster.defenses = {
-	defense = 15,
-	armor = 15
+	defense = 16,
+	armor = 17
 }
 
 monster.elements = {

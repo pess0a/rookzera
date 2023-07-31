@@ -21,7 +21,7 @@ monster.Bestiary = {
 	FirstUnlock = 25,
 	SecondUnlock = 250,
 	CharmsPoints = 15,
-	Stars = 2,
+	Stars = 3,
 	Occurrence = 0,
 	Locations = "Ancient Temple in the Skeleton area, way to Mintwallin, Old Mintwallin Quest, \z
 		Alatar Lake, Magician Tower, Mount Sternum Undead Cave, Ghostlands, Hellgate, \z
@@ -84,8 +84,9 @@ monster.loot = {
 	{name = "gold coin", chance = 68000, maxCount = 30},
 	{id = 3052, chance = 500}, -- life ring
 	{id = 3114, chance = 240}, -- skull
-	{name = "viking helmet", chance = 4000},
+	{name = "viking helmet", chance = 1000},
 	{name = "scale armor", chance = 100},
+	{name = "scythe of the reaper", chance = 80},
 	{name = "worm", chance = 9600, maxCount = 2},
 	{name = "brown piece of cloth", chance = 100},
 	{name = "rotten piece of cloth", chance = 3470},

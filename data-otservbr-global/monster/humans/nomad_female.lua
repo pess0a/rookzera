@@ -18,11 +18,11 @@ monster.raceId = 776
 monster.Bestiary = {
 	class = "Human",
 	race = BESTY_RACE_HUMAN,
-	toKill = 500,
+	toKill = 1000,
 	FirstUnlock = 25,
 	SecondUnlock = 250,
 	CharmsPoints = 15,
-	Stars = 2,
+	Stars = 3,
 	Occurrence = 1,
 	Locations = "Drefia, Ankrahmun."
 	}
@@ -79,14 +79,15 @@ monster.voices = {
 
 monster.loot = {
 	{id = 3031, chance = 56000, maxCount = 40}, -- gold coin
-	{id = 11492, chance = 6420}, -- rope belt
+	{id = 11492, chance = 100}, -- rope belt
 	{id = 8010, chance = 4840, maxCount = 3}, -- potato
 	{id = 3274, chance = 2730}, -- axe
-	{id = 3359, chance = 2350}, -- brass armor
+	{id = 3359, chance = 100}, -- brass armor
+	{name = "blue legs", chance = 100},
 	{id = 3286, chance = 2150}, -- mace
-	{id = 11456, chance = 2140}, -- dirty turban
-	{id = 3409, chance = 900}, -- steel shield
-	{id = 3353, chance = 660}, -- iron helmet
+	{id = 11456, chance = 200}, -- dirty turban
+	{id = 3409, chance = 100}, -- steel shield
+	{id = 3353, chance = 100}, -- iron helmet
 	{id = 7533, chance = 210} -- nomad parchment
 }
 
@@ -110,7 +111,7 @@ monster.elements = {
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
 	{type = COMBAT_ICEDAMAGE, percent = -10},
 	{type = COMBAT_HOLYDAMAGE , percent = 20},
-	{type = COMBAT_DEATHDAMAGE , percent = -10}
+	{type = COMBAT_DEATHDAMAGE , percent = 20}
 }
 
 monster.immunities = {

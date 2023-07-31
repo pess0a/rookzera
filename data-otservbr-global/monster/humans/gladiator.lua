@@ -17,11 +17,11 @@ monster.raceId = 527
 monster.Bestiary = {
 	class = "Human",
 	race = BESTY_RACE_HUMAN,
-	toKill = 500,
+	toKill = 1000,
 	FirstUnlock = 25,
 	SecondUnlock = 250,
 	CharmsPoints = 15,
-	Stars = 2,
+	Stars = 3,
 	Occurrence = 0,
 	Locations = "Trade Quarter, Arena and Zoo Quarter."
 	}
@@ -81,12 +81,13 @@ monster.loot = {
 	{id = 3264, chance = 12620}, -- sword
 	{name = "mace", chance = 11160},
 	{name = "chain helmet", chance = 5200},
-	{name = "iron helmet", chance = 590},
-	{name = "brass armor", chance = 2750},
-	{name = "steel shield", chance = 840},
-	{name = "plate shield", chance = 9950},
+	{name = "iron helmet", chance = 100},
+	{name = "brass armor", chance = 100},
+	{name = "brass legs", chance = 100},
+	{name = "steel shield", chance = 100},
+	{name = "plate shield", chance = 4000},
 	{name = "meat", chance = 19000},
-	{name = "belted cape", chance = 340}
+	{name = "belted cape", chance = 100}
 }
 
 monster.attacks = {

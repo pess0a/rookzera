@@ -82,7 +82,7 @@ monster.loot = {
 	{id = 3264, chance = 1940}, -- sword
 	{name = "hatchet", chance = 2000},
 	{name = "mace", chance = 1850},
-	{name = "viking helmet", chance = 1520},
+	{name = "viking helmet", chance = 200},
 	{name = "brass shield", chance = 3090},
 	{name = "pelvis bone", chance = 9940},
 	{id = 23986, chance = 1000} -- heavy old tome

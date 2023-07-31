@@ -21,13 +21,13 @@ monster.Bestiary = {
 	FirstUnlock = 25,
 	SecondUnlock = 250,
 	CharmsPoints = 15,
-	Stars = 2,
+	Stars = 3,
 	Occurrence = 2,
 	Locations = "Desert north of Ankrahmun."
 	}
 
-monster.health = 85
-monster.maxHealth = 85
+monster.health = 150
+monster.maxHealth = 150
 monster.race = "undead"
 monster.corpse = 4024
 monster.speed = 77
@@ -79,6 +79,7 @@ monster.voices = {
 monster.loot = {
 	{name = "gold coin", chance = 50000, maxCount = 15},
 	{name = "scarab coin", chance = 1},
+	{name = "diamond sceptre", chance = 100},
 	{name = "mace", chance = 3560},
 	{id = 3307, chance = 100}, -- scimitar
 	{name = "brown mushroom", chance = 6120, maxCount = 2},

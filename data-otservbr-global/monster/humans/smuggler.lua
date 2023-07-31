@@ -21,13 +21,13 @@ monster.Bestiary = {
 	FirstUnlock = 25,
 	SecondUnlock = 250,
 	CharmsPoints = 15,
-	Stars = 2,
+	Stars = 3,
 	Occurrence = 0,
 	Locations = "Around Dark Cathedral, Tiquanda Bandit Caves, the Outlaw Camp, Tyrsung, Yalahar and Nargor."
 	}
 
-monster.health = 130
-monster.maxHealth = 130
+monster.health = 150
+monster.maxHealth = 150
 monster.race = "blood"
 monster.corpse = 18226
 monster.speed = 88
@@ -78,8 +78,9 @@ monster.loot = {
 	{id = 2920, chance = 30200, maxCount = 2}, -- torch
 	{name = "gold coin", chance = 80000, maxCount = 10},
 	{id = 3264, chance = 5000}, -- sword
-	{name = "knife", chance = 9920},
+	{name = "iron helmet", chance = 120},
 	{name = "combat knife", chance = 4400},
+	{name = "smitar", chance = 100},
 	{name = "short sword", chance = 10000},
 	{name = "leather helmet", chance = 10050},
 	{name = "leather legs", chance = 14840},

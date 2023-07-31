@@ -17,7 +17,7 @@ monster.raceId = 215
 monster.Bestiary = {
 	class = "Humanoid",
 	race = BESTY_RACE_HUMANOID,
-	toKill = 500,
+	toKill = 1000,
 	FirstUnlock = 25,
 	SecondUnlock = 250,
 	CharmsPoints = 15,
@@ -26,8 +26,8 @@ monster.Bestiary = {
 	Locations = "South of Port Hope (Trapwood) on ground level and underground."
 	}
 
-monster.health = 85
-monster.maxHealth = 85
+monster.health = 100
+monster.maxHealth = 100
 monster.race = "blood"
 monster.corpse = 6058
 monster.speed = 74
@@ -79,17 +79,18 @@ monster.loot = {
 	{id = 2920, chance = 4750}, -- torch
 	{name = "gold coin", chance = 69000, maxCount = 13},
 	{id = 3114, chance = 3300, maxCount = 3}, -- skull
-	{name = "poison dagger", chance = 2250},
-	{name = "bone shield", chance = 1000},
+	{name = "poison dagger", chance = 40},
+	{name = "bone shield", chance = 100},
+	{name = "throwing axe", chance = 100},
 	{name = "cleaver", chance = 9750},
-	{name = "ripper lance", chance = 90},
+	{name = "ripper lance", chance = 10},
 	{name = "hunting spear", chance = 2000},
-	{name = "tribal mask", chance = 500}
+	{name = "tribal mask", chance = 300}
 }
 
 monster.attacks = {
-	{name ="melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = -25, condition = {type = CONDITION_POISON, totalDamage = 20, interval = 4000}},
-	{name ="combat", interval = 2000, chance = 10, type = COMBAT_PHYSICALDAMAGE, minDamage = 0, maxDamage = -15, range = 7, shootEffect = CONST_ANI_THROWINGKNIFE, target = false}
+	{name ="melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = -35, condition = {type = CONDITION_POISON, totalDamage = 20, interval = 4000}},
+	{name ="combat", interval = 2000, chance = 10, type = COMBAT_PHYSICALDAMAGE, minDamage = 3, maxDamage = -20, range = 7, shootEffect = CONST_ANI_THROWINGKNIFE, target = false}
 }
 
 monster.defenses = {

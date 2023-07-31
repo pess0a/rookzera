@@ -21,7 +21,7 @@ monster.Bestiary = {
 	FirstUnlock = 25,
 	SecondUnlock = 250,
 	CharmsPoints = 15,
-	Stars = 2,
+	Stars = 3,
 	Occurrence = 0,
 	Locations = "Kazordoon Dwarf Mines, Dwacatra, Ferngrims Gate, Cyclopolis, Mount Sternum Undead Cave, \z
 		Stonehome Rotworm cave (near Edron), Maze of Lost Souls, Tiquanda Dwarf Cave, Beregar, Cormaya Dwarf Cave."
@@ -80,11 +80,11 @@ monster.loot = {
 	{name = "gold coin", chance = 40000, maxCount = 30},
 	{name = "small amethyst", chance = 140},
 	{id = 3092, chance = 190}, -- axe ring
-	{name = "double axe", chance = 600},
-	{name = "battle hammer", chance = 4000},
-	{name = "steel helmet", chance = 1600},
-	{name = "scale armor", chance = 9200},
-	{name = "battle shield", chance = 6000},
+	{name = "double axe", chance = 10},
+	{name = "battle hammer", chance = 10},
+	{name = "dwarven helmet", chance = 100},
+	{name = "scale armor", chance = 130},
+	{name = "dwarven shield", chance = 100},
 	{name = "leather boots", chance = 40000},
 	{name = "white mushroom", chance = 55000, maxCount = 2},
 	{name = "iron ore", chance = 510},
@@ -93,7 +93,7 @@ monster.loot = {
 }
 
 monster.attacks = {
-	{name ="melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = -140}
+	{name ="melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = -120}
 }
 
 monster.defenses = {
@@ -105,13 +105,13 @@ monster.elements = {
 	{type = COMBAT_PHYSICALDAMAGE, percent = 20},
 	{type = COMBAT_ENERGYDAMAGE, percent = 0},
 	{type = COMBAT_EARTHDAMAGE, percent = 20},
-	{type = COMBAT_FIREDAMAGE, percent = -5},
+	{type = COMBAT_FIREDAMAGE, percent = -10},
 	{type = COMBAT_LIFEDRAIN, percent = 0},
 	{type = COMBAT_MANADRAIN, percent = 0},
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
 	{type = COMBAT_ICEDAMAGE, percent = 0},
 	{type = COMBAT_HOLYDAMAGE , percent = 0},
-	{type = COMBAT_DEATHDAMAGE , percent = -5}
+	{type = COMBAT_DEATHDAMAGE , percent = -10}
 }
 
 monster.immunities = {

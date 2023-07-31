@@ -21,7 +21,7 @@ monster.Bestiary = {
 	FirstUnlock = 25,
 	SecondUnlock = 500,
 	CharmsPoints = 15,
-	Stars = 2,
+	Stars = 3,
 	Occurrence = 0,
 	Locations = "Yalahar Foreigner Quarter, Shadowthorn, northwest of Ab'Dendriel, north and west of Mount Sternum, \z
 		Hellgate, Maze of Lost Souls, near Knightwatch Tower in the Plains of Havoc. \z
@@ -29,7 +29,7 @@ monster.Bestiary = {
 	}
 
 monster.health = 180
-monster.maxHealth = 160
+monster.maxHealth = 180
 monster.race = "blood"
 monster.corpse = 6012
 monster.speed = 110
@@ -83,6 +83,7 @@ monster.loot = {
 	{name = "waterskin", chance = 1350},
 	{name = "gold coin", chance = 75000, maxCount = 25},
 	{name = "bow", chance = 500},
+	{name = "ranger's cloak", chance = 100},
 	{name = "arrow", chance = 15710, maxCount = 12},
 	{name = "poison arrow", chance = 7900, maxCount = 4},
 	{name = "sandals", chance = 1180},
@@ -113,7 +114,7 @@ monster.elements = {
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
 	{type = COMBAT_ICEDAMAGE, percent = 0},
 	{type = COMBAT_HOLYDAMAGE , percent = 20},
-	{type = COMBAT_DEATHDAMAGE , percent = -10}
+	{type = COMBAT_DEATHDAMAGE , percent = -20}
 }
 
 monster.immunities = {

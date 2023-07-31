@@ -17,18 +17,18 @@ monster.raceId = 47
 monster.Bestiary = {
 	class = "Human",
 	race = BESTY_RACE_HUMAN,
-	toKill = 500,
+	toKill = 1000,
 	FirstUnlock = 25,
 	SecondUnlock = 250,
 	CharmsPoints = 15,
-	Stars = 2,
+	Stars = 3,
 	Occurrence = 0,
 	Locations = "Dark Cathedral, Outlaw Camp, North of Thais, Cyclopolis, in Edron Hero Cave and around it, \z
 		the small camp near Femor Hills, in Ghostlands disguised as a statue."
 	}
 
-monster.health = 135
-monster.maxHealth = 135
+monster.health = 180
+monster.maxHealth = 180
 monster.race = "blood"
 monster.corpse = 18250
 monster.speed = 95
@@ -76,15 +76,16 @@ monster.voices = {
 }
 
 monster.loot = {
-	{id = 2991, chance = 520}, -- doll
+	{id = 2991, chance = 100}, -- doll
 	{name = "gold coin", chance = 49070, maxCount = 30},
 	{name = "axe", chance = 30710},
-	{name = "mace", chance = 9800},
-	{name = "chain helmet", chance = 5250},
-	{name = "iron helmet", chance = 580},
-	{name = "brass armor", chance = 2540},
-	{name = "steel shield", chance = 910},
-	{name = "brass shield", chance = 17000},
+	{name = "mace", chance = 5000},
+	{name = "chain helmet", chance = 5000},
+	{name = "plate legs", chance = 100},
+	{name = "iron helmet", chance = 100},
+	{name = "brass armor", chance = 100},
+	{name = "battle shield", chance = 100},
+	{name = "brass shield", chance = 8000},
 	{id = 3606, chance = 9730, maxCount = 2} -- egg
 }
 
@@ -108,7 +109,7 @@ monster.elements = {
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
 	{type = COMBAT_ICEDAMAGE, percent = 0},
 	{type = COMBAT_HOLYDAMAGE , percent = 10},
-	{type = COMBAT_DEATHDAMAGE , percent = -5}
+	{type = COMBAT_DEATHDAMAGE , percent = 10}
 }
 
 monster.immunities = {

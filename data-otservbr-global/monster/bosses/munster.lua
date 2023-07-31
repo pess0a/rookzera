@@ -13,8 +13,8 @@ monster.outfit = {
 	lookMount = 0
 }
 
-monster.health = 58
-monster.maxHealth = 58
+monster.health = 70
+monster.maxHealth = 70
 monster.race = "blood"
 monster.corpse = 3994
 monster.speed = 100
@@ -77,7 +77,7 @@ monster.loot = {
 	{id = 3607, chance = 56000}, -- cheese
 	{id = 3492, chance = 51000, maxCount = 4}, -- worm
 	{id = 3598, chance = 2500, maxCount = 2}, -- cookie
-	{id = 5792, chance = 250} -- die
+	{id = 5792, chance = 3000} -- die
 }
 
 monster.attacks = {
@@ -85,8 +85,8 @@ monster.attacks = {
 }
 
 monster.defenses = {
-	defense = 4,
-	armor = 2
+	defense = 5,
+	armor = 5
 }
 
 monster.elements = {

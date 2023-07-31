@@ -83,7 +83,8 @@ monster.loot = {
 	{name = "longsword", chance = 100},
 	{name = "studded helmet", chance = 5000},
 	{name = "studded armor", chance = 8960},
-	{name = "plate shield", chance = 3000},
+	{name = "studded legs", chance = 2000},
+	{name = "wood cape", chance = 100},
 	{name = "arrow", chance = 4500, maxCount = 3},
 	{name = "leather boots", chance = 11410},
 	{id = 5921, chance = 940}, -- heaven blossom

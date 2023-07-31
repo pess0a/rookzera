@@ -21,13 +21,13 @@ monster.Bestiary = {
 	FirstUnlock = 25,
 	SecondUnlock = 250,
 	CharmsPoints = 15,
-	Stars = 2,
+	Stars = 3,
 	Occurrence = 0,
 	Locations = "Island of Destiny, Drefia, Ghostland and beneath Fenrock."
 	}
 
-monster.health = 65
-monster.maxHealth = 65
+monster.health = 85
+monster.maxHealth = 85
 monster.race = "undead"
 monster.corpse = 5972
 monster.speed = 77
@@ -73,17 +73,18 @@ monster.voices = {
 }
 
 monster.loot = {
-	{name = "gold coin", chance = 43500, maxCount = 10},
+	{name = "gold coin", chance = 43500, maxCount = 13},
 	{id = 3115, chance = 50000}, -- bone
 	{id = 3264, chance = 1500}, -- sword
 	{name = "mace", chance = 2000},
+	{name = "daramian axe", chance = 100},
 	{name = "white mushroom", chance = 24000, maxCount = 3},
 	{name = "brown mushroom", chance = 1700},
 	{name = "pelvis bone", chance = 10630}
 }
 
 monster.attacks = {
-	{name ="melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = -30},
+	{name ="melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = -35},
 	{name ="combat", interval = 2000, chance = 15, type = COMBAT_LIFEDRAIN, minDamage = -7, maxDamage = -13, range = 1, effect = CONST_ME_MAGIC_RED, target = false}
 }
 

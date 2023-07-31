@@ -17,7 +17,7 @@ monster.raceId = 214
 monster.Bestiary = {
 	class = "Humanoid",
 	race = BESTY_RACE_HUMANOID,
-	toKill = 500,
+	toKill = 1000,
 	FirstUnlock = 25,
 	SecondUnlock = 250,
 	CharmsPoints = 15,
@@ -27,8 +27,8 @@ monster.Bestiary = {
 		and 2 crypt shamblers on the shore east of Trapwood."
 	}
 
-monster.health = 80
-monster.maxHealth = 80
+monster.health = 100
+monster.maxHealth = 100
 monster.race = "blood"
 monster.corpse = 6055
 monster.speed = 75
@@ -83,11 +83,11 @@ monster.loot = {
 	{id = 3114, chance = 1950, maxCount = 3}, -- skull
 	{id = 3115, chance = 5800}, -- bone
 	{id = 3116, chance = 3000}, -- big bone
-	{name = "poison dagger", chance = 1000},
+	{name = "poison dagger", chance = 100},
 	{name = "leather armor", chance = 10000},
 	{id = 3002, chance = 130}, -- voodoo doll
-	{name = "tribal mask", chance = 500},
-	{name = "health potion", chance = 600}
+	{name = "tribal mask", chance = 300},
+	{name = "health potion", chance = 60}
 }
 
 monster.attacks = {
@@ -96,7 +96,7 @@ monster.attacks = {
 	{name ="speed", interval = 2000, chance = 10, speedChange = -800, range = 7, effect = CONST_ME_MAGIC_RED, target = false, duration = 5000},
 	{name ="drunk", interval = 2000, chance = 10, range = 7, shootEffect = CONST_ANI_ENERGY, effect = CONST_ME_TELEPORT, target = false},
 	{name ="outfit", interval = 2000, chance = 10, range = 7, effect = CONST_ME_MAGIC_BLUE, target = false, duration = 5000, outfitMonster = "chicken"},
-	{name ="combat", interval = 2000, chance = 10, type = COMBAT_EARTHDAMAGE, minDamage = -6, maxDamage = -18, radius = 6, effect = CONST_ME_GREEN_RINGS, target = false},
+	{name ="combat", interval = 2000, chance = 10, type = COMBAT_EARTHDAMAGE, minDamage = -10, maxDamage = -22, radius = 6, effect = CONST_ME_GREEN_RINGS, target = false},
 	{name ="poisonfield", interval = 2000, chance = 10, range = 7, radius = 1, shootEffect = CONST_ANI_POISON, target = true}
 }
 
