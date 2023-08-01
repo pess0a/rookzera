@@ -17,18 +17,18 @@ monster.raceId = 6
 monster.Bestiary = {
 	class = "Humanoid",
 	race = BESTY_RACE_HUMANOID,
-	toKill = 500,
+	toKill = 1000,
 	FirstUnlock = 25,
 	SecondUnlock = 250,
 	CharmsPoints = 15,
-	Stars = 2,
+	Stars = 3,
 	Occurrence = 0,
 	Locations = "Edron Orc Cave, Temple of Xayepocax, below Point of No Return in Outlaw Camp, Venore Orc Cave, \z
 		Maze of Lost Souls, Orc Fort, north west of Thais, Elvenbane, Plains Of Havoc, Foreigner Quarter, Zao Orc Land."
 	}
 
-monster.health = 115
-monster.maxHealth = 115
+monster.health = 180
+monster.maxHealth = 180
 monster.race = "blood"
 monster.corpse = 5978
 monster.speed = 70
@@ -69,9 +69,11 @@ monster.light = {
 }
 
 monster.summon = {
-	maxSummons = 4,
+	maxSummons = 5,
 	summons = {
-		{name = "Snake", chance = 20, interval = 2000, count = 3}
+		{name = "Orc Warrior", chance = 20, interval = 3000, count = 3}
+	}
+	{name = "Orc Spearman", chance = 20, interval = 2000, count = 3}
 	}
 }
 
@@ -85,27 +87,27 @@ monster.voices = {
 monster.loot = {
 	{id = 2824, chance = 520}, -- book
 	{name = "gold coin", chance = 90000, maxCount = 5},
-	{name = "wand of decay", chance = 1000},
+	{name = "wand of decay", chance = 100},
 	{name = "spear", chance = 4850},
-	{name = "chain armor", chance = 8750},
+	{name = "chain armor", chance = 5050},
 	{name = "corncob", chance = 10600, maxCount = 2},
-	{name = "orc tooth", chance = 2100},
-	{name = "broken shamanic staff", chance = 10300},
-	{name = "shamanic hood", chance = 6860},
-	{name = "orc leather", chance = 4300},
+	{name = "orc tooth", chance = 100},
+	{name = "broken shamanic staff", chance = 100},
+	{name = "shamanic hood", chance = 100},
+	{name = "orc leather", chance = 300},
 	{id = 23986, chance = 1000} -- heavy old tome
 }
 
 monster.attacks = {
 	{name ="melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = -15},
-	{name ="combat", interval = 2000, chance = 15, type = COMBAT_ENERGYDAMAGE, minDamage = -20, maxDamage = -31, range = 7, shootEffect = CONST_ANI_ENERGYBALL, target = false},
-	{name ="combat", interval = 2000, chance = 5, type = COMBAT_FIREDAMAGE, minDamage = -5, maxDamage = -43, range = 7, radius = 1, shootEffect = CONST_ANI_FIRE, target = true}
+	{name ="combat", interval = 2000, chance = 15, type = COMBAT_ENERGYDAMAGE, minDamage = -20, maxDamage = -51, range = 7, shootEffect = CONST_ANI_ENERGYBALL, target = false},
+	{name ="combat", interval = 2000, chance = 5, type = COMBAT_FIREDAMAGE, minDamage = -5, maxDamage = -53, range = 7, radius = 1, shootEffect = CONST_ANI_FIRE, target = true}
 }
 
 monster.defenses = {
 	defense = 10,
 	armor = 10,
-	{name ="combat", interval = 2000, chance = 60, type = COMBAT_HEALING, minDamage = 27, maxDamage = 43, effect = CONST_ME_MAGIC_BLUE, target = false}
+	{name ="combat", interval = 2000, chance = 60, type = COMBAT_HEALING, minDamage = 37, maxDamage = 53, effect = CONST_ME_MAGIC_BLUE, target = false}
 }
 
 monster.elements = {
