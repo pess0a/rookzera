@@ -17,7 +17,7 @@ monster.raceId = 12
 monster.Bestiary = {
 	class = "Human",
 	race = BESTY_RACE_HUMAN,
-	toKill = 500,
+	toKill = 1000,
 	FirstUnlock = 25,
 	SecondUnlock = 250,
 	CharmsPoints = 15,
@@ -27,8 +27,8 @@ monster.Bestiary = {
 		single respawn to the north west of Thais, Foreigner Quarter in Yalahar."
 	}
 
-monster.health = 190
-monster.maxHealth = 190
+monster.health = 250
+monster.maxHealth = 250
 monster.race = "blood"
 monster.corpse = 18242
 monster.speed = 88
@@ -79,34 +79,33 @@ monster.voices = {
 }
 
 monster.loot = {
-	{name = "spear", chance = 55000, maxCount = 3},
+	{name = "spear", chance = 35000, maxCount = 3},
 	{name = "gold coin", chance = 32000, maxCount = 12},
 	{name = "meat", chance = 30000},
-	{name = "chain armor", chance = 10000},
+	{name = "chain armor", chance = 7000},
 	{name = "red apple", chance = 7500, maxCount = 2},
 	{name = "girlish hair decoration", chance = 5900},
 	{name = "hunting spear", chance = 5155},
-	{name = "protective charm", chance = 3200},
-	{name = "protection amulet", chance = 1100},
-	{name = "plate armor", chance = 830},
+	{name = "protective charm", chance = 100},
+	{name = "protection amulet", chance = 100},
+	{name = "plate armor", chance = 100},
 	{id = 3114, chance = 760}, -- skull
-	{name = "health potion", chance = 500},
-	{name = "double axe", chance = 430},
+	{name = "health potion", chance = 50},
 	{name = "small diamond", chance = 130}
 }
 
 monster.attacks = {
 	{name ="melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = -70},
-	{name ="combat", interval = 2000, chance = 15, type = COMBAT_PHYSICALDAMAGE, minDamage = 0, maxDamage = -50, range = 5, shootEffect = CONST_ANI_SPEAR, target = false}
+	{name ="combat", interval = 2000, chance = 15, type = COMBAT_PHYSICALDAMAGE, minDamage = 0, maxDamage = -50, range = 4, shootEffect = CONST_ANI_SPEAR, target = false}
 }
 
 monster.defenses = {
-	defense = 12,
-	armor = 12
+	defense = 15,
+	armor = 15
 }
 
 monster.elements = {
-	{type = COMBAT_PHYSICALDAMAGE, percent = -10},
+	{type = COMBAT_PHYSICALDAMAGE, percent = 10},
 	{type = COMBAT_ENERGYDAMAGE, percent = 0},
 	{type = COMBAT_EARTHDAMAGE, percent = 0},
 	{type = COMBAT_FIREDAMAGE, percent = 10},
@@ -115,7 +114,7 @@ monster.elements = {
 	{type = COMBAT_DROWNDAMAGE, percent = 0},
 	{type = COMBAT_ICEDAMAGE, percent = 10},
 	{type = COMBAT_HOLYDAMAGE , percent = 5},
-	{type = COMBAT_DEATHDAMAGE , percent = -5}
+	{type = COMBAT_DEATHDAMAGE , percent = -10}
 }
 
 monster.immunities = {
