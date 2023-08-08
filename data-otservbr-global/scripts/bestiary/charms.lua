@@ -196,11 +196,11 @@ local charms = {
 	-- Vampiric embrace charm
 	[18] = {
 		name = "Vampiric Embrace",
-		description = "Adds 8% Life Leech to attacks if wearing equipment that provides life leech.",
+		description = "Adds 10% Life Leech to attacks if wearing equipment that provides life leech.",
 		type = CHARM_PASSIVE,
-		percent = 8,
-		chance = 100,
-		points = 1500
+		percent = 10,
+		chance = 10,
+		points = 200
 	},
 	-- Void's call charm
 	[19] = {

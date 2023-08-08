@@ -38,6 +38,8 @@ npcConfig.shop = {	-- Sellable items
 	{ itemName = "rope", clientId = 3003, buy = 50, sell = 8 },
 	{ itemName = "scroll", clientId = 2815, buy = 5 },
 	{ itemName = "scythe", clientId = 3453, buy = 12 },
+	{ itemName = "lamp", clientId = 2914, buy = 50 },
+	{ itemName = "vial of oil", clientId = 2874, buy = 20, count = 7 },
 	{ itemName = "shovel", clientId = 3457, buy = 10, sell = 2 },
 	{ itemName = "torch", clientId = 2920, buy = 5 },
 	{ itemName = "worm", clientId = 3492, buy = 1 }
